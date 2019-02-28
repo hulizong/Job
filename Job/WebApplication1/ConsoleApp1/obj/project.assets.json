@@ -9822,11 +9822,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\学习\\GitHub\\Job\\Job\\WebApplication1\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectUniqueName": "G:\\学习\\GitHub\\调度\\Job\\Job\\WebApplication1\\ConsoleApp1\\ConsoleApp1.csproj",
       "projectName": "ConsoleApp1",
-      "projectPath": "G:\\学习\\GitHub\\Job\\Job\\WebApplication1\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectPath": "G:\\学习\\GitHub\\调度\\Job\\Job\\WebApplication1\\ConsoleApp1\\ConsoleApp1.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "G:\\学习\\GitHub\\Job\\Job\\WebApplication1\\ConsoleApp1\\obj\\",
+      "outputPath": "G:\\学习\\GitHub\\调度\\Job\\Job\\WebApplication1\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -9845,11 +9845,11 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "G:\\学习\\GitHub\\Job\\Job\\WebApplication1\\Common\\Common.csproj": {
-              "projectPath": "G:\\学习\\GitHub\\Job\\Job\\WebApplication1\\Common\\Common.csproj"
+            "G:\\学习\\GitHub\\调度\\Job\\Job\\WebApplication1\\Common\\Common.csproj": {
+              "projectPath": "G:\\学习\\GitHub\\调度\\Job\\Job\\WebApplication1\\Common\\Common.csproj"
             },
-            "G:\\学习\\GitHub\\Job\\Job\\WebApplication1\\Job\\Job.csproj": {
-              "projectPath": "G:\\学习\\GitHub\\Job\\Job\\WebApplication1\\Job\\Job.csproj"
+            "G:\\学习\\GitHub\\调度\\Job\\Job\\WebApplication1\\Job\\Job.csproj": {
+              "projectPath": "G:\\学习\\GitHub\\调度\\Job\\Job\\WebApplication1\\Job\\Job.csproj"
             }
           }
         }
