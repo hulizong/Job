@@ -1,0 +1,12 @@
+G:\学习\Job\StartJob\WebApplication1\Job\bin\Debug\netcoreapp2.2\Job.deps.json
+G:\学习\Job\StartJob\WebApplication1\Job\bin\Debug\netcoreapp2.2\Job.dll
+G:\学习\Job\StartJob\WebApplication1\Job\bin\Debug\netcoreapp2.2\Job.pdb
+G:\学习\Job\StartJob\WebApplication1\Job\bin\Debug\netcoreapp2.2\Common.dll
+G:\学习\Job\StartJob\WebApplication1\Job\bin\Debug\netcoreapp2.2\Common.pdb
+G:\学习\Job\StartJob\WebApplication1\Job\obj\Debug\netcoreapp2.2\Job.csprojAssemblyReference.cache
+G:\学习\Job\StartJob\WebApplication1\Job\obj\Debug\netcoreapp2.2\Job.csproj.CoreCompileInputs.cache
+G:\学习\Job\StartJob\WebApplication1\Job\obj\Debug\netcoreapp2.2\Job.AssemblyInfoInputs.cache
+G:\学习\Job\StartJob\WebApplication1\Job\obj\Debug\netcoreapp2.2\Job.AssemblyInfo.cs
+G:\学习\Job\StartJob\WebApplication1\Job\obj\Debug\netcoreapp2.2\Job.csproj.CopyComplete
+G:\学习\Job\StartJob\WebApplication1\Job\obj\Debug\netcoreapp2.2\Job.dll
+G:\学习\Job\StartJob\WebApplication1\Job\obj\Debug\netcoreapp2.2\Job.pdb
