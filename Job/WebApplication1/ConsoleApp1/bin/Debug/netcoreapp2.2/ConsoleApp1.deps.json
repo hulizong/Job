@@ -9,6 +9,7 @@
       "ConsoleApp1/1.0.0": {
         "dependencies": {
           "Common": "1.0.0",
+          "ConfigModel": "1.0.0",
           "Job": "1.0.0",
           "Microsoft.AspNetCore": "2.2.0",
           "Microsoft.AspNetCore.Mvc": "2.2.0",
@@ -2388,6 +2389,14 @@
           "Common.dll": {}
         }
       },
+      "ConfigModel/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Json": "2.2.0"
+        },
+        "runtime": {
+          "ConfigModel.dll": {}
+        }
+      },
       "Job/1.0.0": {
         "dependencies": {
           "Common": "1.0.0",
@@ -3827,6 +3836,11 @@
       "hashPath": "system.xml.xpath.xdocument.4.3.0.nupkg.sha512"
     },
     "Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ConfigModel/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

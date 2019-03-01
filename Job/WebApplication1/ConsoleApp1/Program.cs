@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using System;
 using System.IO;
-using System.Linq;
+using System.Linq; 
 
 namespace ConsoleApp1
 {
@@ -16,7 +16,8 @@ namespace ConsoleApp1
              .SetBasePath(pathToContentRoot)
              .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
              .AddEnvironmentVariables();
-
+  
+            ConfigModel.Configurations.CreateAcquire(builder.Build());
             HandleStart();
             var webHostArgs = args.Where(arg => arg != "--console").ToArray();
 
@@ -26,7 +27,7 @@ namespace ConsoleApp1
                 .UseKestrel(options => {
                     options.Limits.MinRequestBodyDataRate = null;
                 })
-                .UseUrls("")
+                .UseUrls(ConfigModel.Configurations.Acquire.Setting.Host)
                 .Build();
             host.Run();
         }
