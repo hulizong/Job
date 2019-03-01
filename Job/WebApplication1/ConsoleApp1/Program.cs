@@ -11,13 +11,13 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            var pathToContentRoot = Directory.GetCurrentDirectory();
+            var pathToContentRoot = Directory.GetCurrentDirectory();     //获取当前运行目录
             var builder = new ConfigurationBuilder()
              .SetBasePath(pathToContentRoot)
              .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
              .AddEnvironmentVariables();
   
-            ConfigModel.Configurations.CreateAcquire(builder.Build());
+            ConfigModel.Configurations.CreateAcquire(builder.Build());    //读取配置文件
             HandleStart();
             var webHostArgs = args.Where(arg => arg != "--console").ToArray();
 
