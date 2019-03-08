@@ -1,0 +1,270 @@
+21:06:28|Info|Microsoft.Extensions.Logging.LoggingExtensions.UsingProfileAsKeyRepositoryWithDPAPI|User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.|
+21:06:29|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting|Request starting HTTP/1.1 GET http://localhost:63313/  |
+21:06:29|Info|Microsoft.AspNetCore.Routing.EndpointMiddleware+Log.ExecutingEndpoint|Executing endpoint 'Web.Controllers.LoginController.Index (Web)'|
+21:06:29|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutingAction|Route matched with {action = "Index", controller = "Login"}. Executing action Web.Controllers.LoginController.Index (Web)|
+21:06:29|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuting|Executing action method Web.Controllers.LoginController.Index (Web) - Validation state: Valid|
+21:06:29|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuted|Executed action method Web.Controllers.LoginController.Index (Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.6111ms.|
+21:06:29|Info|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.MvcViewFeaturesLoggerExtensions.ViewResultExecuting|Executing ViewResult, running view Index.|
+21:06:29|Info|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.MvcViewFeaturesLoggerExtensions.ViewResultExecuted|Executed ViewResult - view Index executed in 65.8936ms.|
+21:06:29|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutedAction|Executed action Web.Controllers.LoginController.Index (Web) in 90.0823ms|
+21:06:29|Info|Microsoft.AspNetCore.Routing.EndpointMiddleware+Log.ExecutedEndpoint|Executed endpoint 'Web.Controllers.LoginController.Index (Web)'|
+21:06:29|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished|Request finished in 166.7524ms 200 text/html; charset=utf-8|
+21:06:29|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting|Request starting HTTP/1.1 GET http://localhost:63313/js/jquery-2.2.4.min.js  |
+21:06:29|Info|Microsoft.AspNetCore.StaticFiles.LoggerExtensions.LogFileServed|Sending file. Request path: '/js/jquery-2.2.4.min.js'. Physical path: 'G:\学习\GitHub\调度\Job\Job\Web\Web\wwwroot\js\jquery-2.2.4.min.js'|
+21:06:29|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished|Request finished in 39.3604ms 200 application/javascript|
+21:06:32|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting|Request starting HTTP/1.1 POST http://localhost:63313/Login/Login application/x-www-form-urlencoded; charset=UTF-8 18|
+21:06:32|Info|Microsoft.AspNetCore.Routing.EndpointMiddleware+Log.ExecutingEndpoint|Executing endpoint 'Web.Controllers.LoginController.Login (Web)'|
+21:06:32|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutingAction|Route matched with {action = "Login", controller = "Login"}. Executing action Web.Controllers.LoginController.Login (Web)|
+21:06:32|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuting|Executing action method Web.Controllers.LoginController.Login (Web) with arguments (Web.Model.Login) - Validation state: Valid|
+21:06:32|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuted|Executed action method Web.Controllers.LoginController.Login (Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 617.5481ms.|
+21:06:32|Info|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.MvcJsonLoggerExtensions.JsonResultExecuting|Executing JsonResult, writing value of type '<>f__AnonymousType0`1[[Web.Common.Response`1[[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.|
+21:06:33|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutedAction|Executed action Web.Controllers.LoginController.Login (Web) in 691.0258ms|
+21:06:33|Info|Microsoft.AspNetCore.Routing.EndpointMiddleware+Log.ExecutedEndpoint|Executed endpoint 'Web.Controllers.LoginController.Login (Web)'|
+21:06:33|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished|Request finished in 731.282ms 200 application/json; charset=utf-8|
+21:06:34|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting|Request starting HTTP/1.1 GET http://localhost:63313/Login/See  |
+21:06:34|Info|Microsoft.AspNetCore.Routing.EndpointMiddleware+Log.ExecutingEndpoint|Executing endpoint 'Web.Controllers.LoginController.See (Web)'|
+21:06:34|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutingAction|Route matched with {action = "See", controller = "Login"}. Executing action Web.Controllers.LoginController.See (Web)|
+21:06:34|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuting|Executing action method Web.Controllers.LoginController.See (Web) - Validation state: Valid|
+21:06:34|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuted|Executed action method Web.Controllers.LoginController.See (Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.5214ms.|
+21:06:34|Info|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.MvcViewFeaturesLoggerExtensions.ViewResultExecuting|Executing ViewResult, running view See.|
+21:06:34|Info|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.MvcViewFeaturesLoggerExtensions.ViewResultExecuted|Executed ViewResult - view See executed in 12.5571ms.|
+21:06:34|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutedAction|Executed action Web.Controllers.LoginController.See (Web) in 22.4466ms|
+21:06:34|Info|Microsoft.AspNetCore.Routing.EndpointMiddleware+Log.ExecutedEndpoint|Executed endpoint 'Web.Controllers.LoginController.See (Web)'|
+21:06:34|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished|Request finished in 48.3485ms 200 text/html; charset=utf-8|
+21:06:36|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting|Request starting HTTP/1.1 GET http://localhost:63313/  |
+21:06:36|Info|Microsoft.AspNetCore.Routing.EndpointMiddleware+Log.ExecutingEndpoint|Executing endpoint 'Web.Controllers.LoginController.Index (Web)'|
+21:06:36|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutingAction|Route matched with {action = "Index", controller = "Login"}. Executing action Web.Controllers.LoginController.Index (Web)|
+21:06:36|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuting|Executing action method Web.Controllers.LoginController.Index (Web) - Validation state: Valid|
+21:06:36|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuted|Executed action method Web.Controllers.LoginController.Index (Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0255ms.|
+21:06:36|Info|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.MvcViewFeaturesLoggerExtensions.ViewResultExecuting|Executing ViewResult, running view Index.|
+21:06:36|Info|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.MvcViewFeaturesLoggerExtensions.ViewResultExecuted|Executed ViewResult - view Index executed in 4.0055ms.|
+21:06:36|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutedAction|Executed action Web.Controllers.LoginController.Index (Web) in 16.2756ms|
+21:06:36|Info|Microsoft.AspNetCore.Routing.EndpointMiddleware+Log.ExecutedEndpoint|Executed endpoint 'Web.Controllers.LoginController.Index (Web)'|
+21:06:36|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting|Request starting HTTP/1.1 GET http://localhost:63313/js/jquery-2.2.4.min.js  |
+21:06:36|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished|Request finished in 42.3194ms 200 text/html; charset=utf-8|
+21:06:36|Info|Microsoft.AspNetCore.StaticFiles.LoggerExtensions.LogFileServed|Sending file. Request path: '/js/jquery-2.2.4.min.js'. Physical path: 'G:\学习\GitHub\调度\Job\Job\Web\Web\wwwroot\js\jquery-2.2.4.min.js'|
+21:06:36|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished|Request finished in 19.7509ms 200 application/javascript|
+21:06:39|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting|Request starting HTTP/1.1 POST http://localhost:63313/Login/Login application/x-www-form-urlencoded; charset=UTF-8 23|
+21:06:39|Info|Microsoft.AspNetCore.Routing.EndpointMiddleware+Log.ExecutingEndpoint|Executing endpoint 'Web.Controllers.LoginController.Login (Web)'|
+21:06:39|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutingAction|Route matched with {action = "Login", controller = "Login"}. Executing action Web.Controllers.LoginController.Login (Web)|
+21:06:39|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuting|Executing action method Web.Controllers.LoginController.Login (Web) with arguments (Web.Model.Login) - Validation state: Valid|
+21:06:39|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuted|Executed action method Web.Controllers.LoginController.Login (Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 44.7273ms.|
+21:06:39|Info|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.MvcJsonLoggerExtensions.JsonResultExecuting|Executing JsonResult, writing value of type '<>f__AnonymousType0`1[[Web.Common.Response`1[[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.|
+21:06:39|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutedAction|Executed action Web.Controllers.LoginController.Login (Web) in 55.0406ms|
+21:06:39|Info|Microsoft.AspNetCore.Routing.EndpointMiddleware+Log.ExecutedEndpoint|Executed endpoint 'Web.Controllers.LoginController.Login (Web)'|
+21:06:39|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished|Request finished in 72.0318ms 200 application/json; charset=utf-8|
+21:07:00|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting|Request starting HTTP/1.1 POST http://localhost:63313/Login/Login application/x-www-form-urlencoded; charset=UTF-8 23|
+21:07:00|Info|Microsoft.AspNetCore.Routing.EndpointMiddleware+Log.ExecutingEndpoint|Executing endpoint 'Web.Controllers.LoginController.Login (Web)'|
+21:07:00|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutingAction|Route matched with {action = "Login", controller = "Login"}. Executing action Web.Controllers.LoginController.Login (Web)|
+21:07:00|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuting|Executing action method Web.Controllers.LoginController.Login (Web) with arguments (Web.Model.Login) - Validation state: Valid|
+21:07:00|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuted|Executed action method Web.Controllers.LoginController.Login (Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 4.5438ms.|
+21:07:00|Info|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.MvcJsonLoggerExtensions.JsonResultExecuting|Executing JsonResult, writing value of type '<>f__AnonymousType0`1[[Web.Common.Response`1[[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.|
+21:07:00|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutedAction|Executed action Web.Controllers.LoginController.Login (Web) in 15.2323ms|
+21:07:00|Info|Microsoft.AspNetCore.Routing.EndpointMiddleware+Log.ExecutedEndpoint|Executed endpoint 'Web.Controllers.LoginController.Login (Web)'|
+21:07:00|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished|Request finished in 35.4096ms 200 application/json; charset=utf-8|
+21:33:39|Info|Microsoft.Extensions.Logging.LoggingExtensions.UsingProfileAsKeyRepositoryWithDPAPI|User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.|
+21:33:40|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting|Request starting HTTP/1.1 GET http://localhost:63313/  |
+21:33:40|Info|Microsoft.AspNetCore.Routing.EndpointMiddleware+Log.ExecutingEndpoint|Executing endpoint 'Web.Controllers.LoginController.Index (Web)'|
+21:33:40|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutingAction|Route matched with {action = "Index", controller = "Login"}. Executing action Web.Controllers.LoginController.Index (Web)|
+21:33:40|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuting|Executing action method Web.Controllers.LoginController.Index (Web) - Validation state: Valid|
+21:33:40|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuted|Executed action method Web.Controllers.LoginController.Index (Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.6451ms.|
+21:33:40|Info|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.MvcViewFeaturesLoggerExtensions.ViewResultExecuting|Executing ViewResult, running view Index.|
+21:33:40|Info|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.MvcViewFeaturesLoggerExtensions.ViewResultExecuted|Executed ViewResult - view Index executed in 67.7075ms.|
+21:33:40|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutedAction|Executed action Web.Controllers.LoginController.Index (Web) in 98.7648ms|
+21:33:40|Info|Microsoft.AspNetCore.Routing.EndpointMiddleware+Log.ExecutedEndpoint|Executed endpoint 'Web.Controllers.LoginController.Index (Web)'|
+21:33:40|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting|Request starting HTTP/1.1 GET http://localhost:63313/js/jquery-2.2.4.min.js  |
+21:33:40|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished|Request finished in 185.0961ms 200 text/html; charset=utf-8|
+21:33:40|Info|Microsoft.AspNetCore.StaticFiles.LoggerExtensions.LogFileServed|Sending file. Request path: '/js/jquery-2.2.4.min.js'. Physical path: 'G:\学习\GitHub\调度\Job\Job\Web\Web\wwwroot\js\jquery-2.2.4.min.js'|
+21:33:40|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished|Request finished in 57.1273ms 200 application/javascript|
+21:41:24|Info|Microsoft.Extensions.Logging.LoggingExtensions.UsingProfileAsKeyRepositoryWithDPAPI|User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.|
+21:41:24|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting|Request starting HTTP/1.1 GET http://localhost:63313/  |
+21:41:24|Info|Microsoft.AspNetCore.Routing.EndpointMiddleware+Log.ExecutingEndpoint|Executing endpoint 'Web.Controllers.LoginController.Index (Web)'|
+21:41:24|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutingAction|Route matched with {action = "Index", controller = "Login"}. Executing action Web.Controllers.LoginController.Index (Web)|
+21:41:24|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuting|Executing action method Web.Controllers.LoginController.Index (Web) - Validation state: Valid|
+21:41:24|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuted|Executed action method Web.Controllers.LoginController.Index (Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.5776ms.|
+21:41:24|Info|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.MvcViewFeaturesLoggerExtensions.ViewResultExecuting|Executing ViewResult, running view Index.|
+21:41:24|Info|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.MvcViewFeaturesLoggerExtensions.ViewResultExecuted|Executed ViewResult - view Index executed in 66.2386ms.|
+21:41:24|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutedAction|Executed action Web.Controllers.LoginController.Index (Web) in 99.2921ms|
+21:41:24|Info|Microsoft.AspNetCore.Routing.EndpointMiddleware+Log.ExecutedEndpoint|Executed endpoint 'Web.Controllers.LoginController.Index (Web)'|
+21:41:24|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished|Request finished in 176.4505ms 200 text/html; charset=utf-8|
+21:41:24|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting|Request starting HTTP/1.1 GET http://localhost:63313/js/jquery-2.2.4.min.js  |
+21:41:24|Info|Microsoft.AspNetCore.StaticFiles.LoggerExtensions.LogFileServed|Sending file. Request path: '/js/jquery-2.2.4.min.js'. Physical path: 'G:\学习\GitHub\调度\Job\Job\Web\Web\wwwroot\js\jquery-2.2.4.min.js'|
+21:41:24|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished|Request finished in 34.2481ms 200 application/javascript|
+21:41:33|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting|Request starting HTTP/1.1 GET http://localhost:63313/  |
+21:41:33|Info|Microsoft.AspNetCore.Routing.EndpointMiddleware+Log.ExecutingEndpoint|Executing endpoint 'Web.Controllers.LoginController.Index (Web)'|
+21:41:33|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutingAction|Route matched with {action = "Index", controller = "Login"}. Executing action Web.Controllers.LoginController.Index (Web)|
+21:41:33|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuting|Executing action method Web.Controllers.LoginController.Index (Web) - Validation state: Valid|
+21:41:33|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuted|Executed action method Web.Controllers.LoginController.Index (Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.6316ms.|
+21:41:33|Info|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.MvcViewFeaturesLoggerExtensions.ViewResultExecuting|Executing ViewResult, running view Index.|
+21:41:33|Info|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.MvcViewFeaturesLoggerExtensions.ViewResultExecuted|Executed ViewResult - view Index executed in 4.6648ms.|
+21:41:33|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutedAction|Executed action Web.Controllers.LoginController.Index (Web) in 26.7785ms|
+21:41:33|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting|Request starting HTTP/1.1 GET http://localhost:63313/js/jquery-2.2.4.min.js  |
+21:41:33|Info|Microsoft.AspNetCore.Routing.EndpointMiddleware+Log.ExecutedEndpoint|Executed endpoint 'Web.Controllers.LoginController.Index (Web)'|
+21:41:33|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished|Request finished in 55.014ms 200 text/html; charset=utf-8|
+21:41:33|Info|Microsoft.AspNetCore.StaticFiles.LoggerExtensions.LogFileServed|Sending file. Request path: '/js/jquery-2.2.4.min.js'. Physical path: 'G:\学习\GitHub\调度\Job\Job\Web\Web\wwwroot\js\jquery-2.2.4.min.js'|
+21:41:33|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished|Request finished in 29.6212ms 200 application/javascript|
+21:41:33|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting|Request starting HTTP/1.1 GET http://localhost:63313/favicon.ico  |
+21:41:33|Info|Microsoft.AspNetCore.StaticFiles.LoggerExtensions.LogFileServed|Sending file. Request path: '/favicon.ico'. Physical path: 'G:\学习\GitHub\调度\Job\Job\Web\Web\wwwroot\favicon.ico'|
+21:41:33|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished|Request finished in 13.4811ms 200 image/x-icon|
+21:43:15|Info|Microsoft.Extensions.Logging.LoggingExtensions.UsingProfileAsKeyRepositoryWithDPAPI|User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.|
+21:43:15|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting|Request starting HTTP/1.1 GET http://localhost:63313/  |
+21:43:15|Info|Microsoft.AspNetCore.Routing.EndpointMiddleware+Log.ExecutingEndpoint|Executing endpoint 'Web.Controllers.LoginController.Index (Web)'|
+21:43:15|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutingAction|Route matched with {action = "Index", controller = "Login"}. Executing action Web.Controllers.LoginController.Index (Web)|
+21:43:15|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuting|Executing action method Web.Controllers.LoginController.Index (Web) - Validation state: Valid|
+21:43:15|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuted|Executed action method Web.Controllers.LoginController.Index (Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.4642ms.|
+21:43:15|Info|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.MvcViewFeaturesLoggerExtensions.ViewResultExecuting|Executing ViewResult, running view Index.|
+21:43:15|Info|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.MvcViewFeaturesLoggerExtensions.ViewResultExecuted|Executed ViewResult - view Index executed in 65.2514ms.|
+21:43:15|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutedAction|Executed action Web.Controllers.LoginController.Index (Web) in 93.194ms|
+21:43:15|Info|Microsoft.AspNetCore.Routing.EndpointMiddleware+Log.ExecutedEndpoint|Executed endpoint 'Web.Controllers.LoginController.Index (Web)'|
+21:43:15|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished|Request finished in 178.5028ms 200 text/html; charset=utf-8|
+21:43:15|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting|Request starting HTTP/1.1 GET http://localhost:63313/js/jquery-2.2.4.min.js  |
+21:43:15|Info|Microsoft.AspNetCore.StaticFiles.LoggerExtensions.LogFileServed|Sending file. Request path: '/js/jquery-2.2.4.min.js'. Physical path: 'G:\学习\GitHub\调度\Job\Job\Web\Web\wwwroot\js\jquery-2.2.4.min.js'|
+21:43:15|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished|Request finished in 34.3072ms 200 application/javascript|
+21:44:20|Info|Microsoft.Extensions.Logging.LoggingExtensions.UsingProfileAsKeyRepositoryWithDPAPI|User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.|
+21:44:21|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting|Request starting HTTP/1.1 GET http://localhost:63313/  |
+21:44:21|Info|Microsoft.AspNetCore.Routing.EndpointMiddleware+Log.ExecutingEndpoint|Executing endpoint 'Web.Controllers.LoginController.Index (Web)'|
+21:44:21|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutingAction|Route matched with {action = "Index", controller = "Login"}. Executing action Web.Controllers.LoginController.Index (Web)|
+21:44:21|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuting|Executing action method Web.Controllers.LoginController.Index (Web) - Validation state: Valid|
+21:44:21|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuted|Executed action method Web.Controllers.LoginController.Index (Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.5966ms.|
+21:44:21|Info|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.MvcViewFeaturesLoggerExtensions.ViewResultExecuting|Executing ViewResult, running view Index.|
+21:44:21|Info|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.MvcViewFeaturesLoggerExtensions.ViewResultExecuted|Executed ViewResult - view Index executed in 71.8378ms.|
+21:44:21|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutedAction|Executed action Web.Controllers.LoginController.Index (Web) in 96.9764ms|
+21:44:21|Info|Microsoft.AspNetCore.Routing.EndpointMiddleware+Log.ExecutedEndpoint|Executed endpoint 'Web.Controllers.LoginController.Index (Web)'|
+21:44:21|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished|Request finished in 175.4731ms 200 text/html; charset=utf-8|
+21:44:21|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting|Request starting HTTP/1.1 GET http://localhost:63313/js/jquery-2.2.4.min.js  |
+21:44:21|Info|Microsoft.AspNetCore.StaticFiles.LoggerExtensions.LogFileServed|Sending file. Request path: '/js/jquery-2.2.4.min.js'. Physical path: 'G:\学习\GitHub\调度\Job\Job\Web\Web\wwwroot\js\jquery-2.2.4.min.js'|
+21:44:21|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished|Request finished in 42.6622ms 200 application/javascript|
+21:47:36|Info|Microsoft.Extensions.Logging.LoggingExtensions.UsingProfileAsKeyRepositoryWithDPAPI|User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.|
+21:48:09|Info|Microsoft.Extensions.Logging.LoggingExtensions.UsingProfileAsKeyRepositoryWithDPAPI|User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.|
+21:48:10|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting|Request starting HTTP/1.1 GET http://localhost:63313/  |
+21:48:10|Info|Microsoft.AspNetCore.Routing.EndpointMiddleware+Log.ExecutingEndpoint|Executing endpoint 'Web.Controllers.LoginController.Index (Web)'|
+21:48:10|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutingAction|Route matched with {action = "Index", controller = "Login"}. Executing action Web.Controllers.LoginController.Index (Web)|
+21:48:10|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuting|Executing action method Web.Controllers.LoginController.Index (Web) - Validation state: Valid|
+21:48:10|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuted|Executed action method Web.Controllers.LoginController.Index (Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.5269ms.|
+21:48:10|Info|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.MvcViewFeaturesLoggerExtensions.ViewResultExecuting|Executing ViewResult, running view Index.|
+21:48:10|Info|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.MvcViewFeaturesLoggerExtensions.ViewResultExecuted|Executed ViewResult - view Index executed in 66.1963ms.|
+21:48:10|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutedAction|Executed action Web.Controllers.LoginController.Index (Web) in 96.1384ms|
+21:48:10|Info|Microsoft.AspNetCore.Routing.EndpointMiddleware+Log.ExecutedEndpoint|Executed endpoint 'Web.Controllers.LoginController.Index (Web)'|
+21:48:10|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished|Request finished in 178.3267ms 200 text/html; charset=utf-8|
+21:48:10|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting|Request starting HTTP/1.1 GET http://localhost:63313/js/jquery-2.2.4.min.js  |
+21:48:10|Info|Microsoft.AspNetCore.StaticFiles.LoggerExtensions.LogFileServed|Sending file. Request path: '/js/jquery-2.2.4.min.js'. Physical path: 'G:\学习\GitHub\调度\Job\Job\Web\Web\wwwroot\js\jquery-2.2.4.min.js'|
+21:48:10|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished|Request finished in 35.2641ms 200 application/javascript|
+21:50:28|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting|Request starting HTTP/1.1 GET http://localhost:63313/  |
+21:50:28|Info|Microsoft.AspNetCore.Routing.EndpointMiddleware+Log.ExecutingEndpoint|Executing endpoint 'Web.Controllers.LoginController.Index (Web)'|
+21:50:28|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutingAction|Route matched with {action = "Index", controller = "Login"}. Executing action Web.Controllers.LoginController.Index (Web)|
+21:50:28|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuting|Executing action method Web.Controllers.LoginController.Index (Web) - Validation state: Valid|
+21:50:28|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuted|Executed action method Web.Controllers.LoginController.Index (Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.3478ms.|
+21:50:28|Info|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.MvcViewFeaturesLoggerExtensions.ViewResultExecuting|Executing ViewResult, running view Index.|
+21:50:28|Info|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.MvcViewFeaturesLoggerExtensions.ViewResultExecuted|Executed ViewResult - view Index executed in 6.6516ms.|
+21:50:28|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutedAction|Executed action Web.Controllers.LoginController.Index (Web) in 28.281ms|
+21:50:28|Info|Microsoft.AspNetCore.Routing.EndpointMiddleware+Log.ExecutedEndpoint|Executed endpoint 'Web.Controllers.LoginController.Index (Web)'|
+21:50:29|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished|Request finished in 55.4881ms 200 text/html; charset=utf-8|
+21:51:38|Info|Microsoft.Extensions.Logging.LoggingExtensions.UsingProfileAsKeyRepositoryWithDPAPI|User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.|
+21:51:41|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting|Request starting HTTP/1.1 GET http://localhost:5000/  |
+21:51:41|Info|Microsoft.AspNetCore.Routing.EndpointMiddleware+Log.ExecutingEndpoint|Executing endpoint 'Web.Controllers.LoginController.Index (Web)'|
+21:51:41|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutingAction|Route matched with {action = "Index", controller = "Login"}. Executing action Web.Controllers.LoginController.Index (Web)|
+21:51:41|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuting|Executing action method Web.Controllers.LoginController.Index (Web) - Validation state: Valid|
+21:51:41|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuted|Executed action method Web.Controllers.LoginController.Index (Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.5316ms.|
+21:51:41|Info|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.MvcViewFeaturesLoggerExtensions.ViewResultExecuting|Executing ViewResult, running view Index.|
+21:51:41|Info|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.MvcViewFeaturesLoggerExtensions.ViewResultExecuted|Executed ViewResult - view Index executed in 103.624ms.|
+21:51:41|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting|Request starting HTTP/1.1 GET http://localhost:5000/js/jquery-2.2.4.min.js  |
+21:51:41|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutedAction|Executed action Web.Controllers.LoginController.Index (Web) in 187.0755ms|
+21:51:41|Info|Microsoft.AspNetCore.Routing.EndpointMiddleware+Log.ExecutedEndpoint|Executed endpoint 'Web.Controllers.LoginController.Index (Web)'|
+21:51:41|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished|Request finished in 310.5396ms 200 text/html; charset=utf-8|
+21:51:41|Info|Microsoft.AspNetCore.StaticFiles.LoggerExtensions.LogFileServed|Sending file. Request path: '/js/jquery-2.2.4.min.js'. Physical path: 'G:\学习\GitHub\调度\Job\Job\Web\Web\wwwroot\js\jquery-2.2.4.min.js'|
+21:51:41|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished|Request finished in 48.4565ms 200 application/javascript|
+21:51:41|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting|Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico  |
+21:51:41|Info|Microsoft.AspNetCore.StaticFiles.LoggerExtensions.LogFileServed|Sending file. Request path: '/favicon.ico'. Physical path: 'G:\学习\GitHub\调度\Job\Job\Web\Web\wwwroot\favicon.ico'|
+21:51:41|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished|Request finished in 23.8163ms 200 image/x-icon|
+22:01:22|Info|Microsoft.Extensions.Logging.LoggingExtensions.UsingProfileAsKeyRepositoryWithDPAPI|User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.|
+22:03:33|Info|Microsoft.Extensions.Logging.LoggingExtensions.UsingProfileAsKeyRepositoryWithDPAPI|User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.|
+22:03:34|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting|Request starting HTTP/1.1 GET http://localhost:63313/  |
+22:03:34|Info|Microsoft.AspNetCore.Routing.EndpointMiddleware+Log.ExecutingEndpoint|Executing endpoint 'Web.Controllers.LoginController.Index (Web)'|
+22:03:34|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutingAction|Route matched with {action = "Index", controller = "Login"}. Executing action Web.Controllers.LoginController.Index (Web)|
+22:03:34|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuting|Executing action method Web.Controllers.LoginController.Index (Web) - Validation state: Valid|
+22:03:34|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuted|Executed action method Web.Controllers.LoginController.Index (Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.563ms.|
+22:03:34|Info|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.MvcViewFeaturesLoggerExtensions.ViewResultExecuting|Executing ViewResult, running view Index.|
+22:03:34|Info|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.MvcViewFeaturesLoggerExtensions.ViewResultExecuted|Executed ViewResult - view Index executed in 70.1019ms.|
+22:03:34|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutedAction|Executed action Web.Controllers.LoginController.Index (Web) in 96.5198ms|
+22:03:34|Info|Microsoft.AspNetCore.Routing.EndpointMiddleware+Log.ExecutedEndpoint|Executed endpoint 'Web.Controllers.LoginController.Index (Web)'|
+22:03:34|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished|Request finished in 179.6712ms 200 text/html; charset=utf-8|
+22:03:34|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting|Request starting HTTP/1.1 GET http://localhost:63313/js/jquery-2.2.4.min.js  |
+22:03:34|Info|Microsoft.AspNetCore.StaticFiles.LoggerExtensions.LogFileServed|Sending file. Request path: '/js/jquery-2.2.4.min.js'. Physical path: 'G:\学习\GitHub\调度\Job\Job\Web\Web\wwwroot\js\jquery-2.2.4.min.js'|
+22:03:34|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished|Request finished in 31.2115ms 200 application/javascript|
+22:04:46|Info|Microsoft.Extensions.Logging.LoggingExtensions.UsingProfileAsKeyRepositoryWithDPAPI|User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.|
+22:04:47|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting|Request starting HTTP/1.1 GET http://localhost:63313/  |
+22:04:47|Info|Microsoft.AspNetCore.Routing.EndpointMiddleware+Log.ExecutingEndpoint|Executing endpoint 'Web.Controllers.LoginController.Index (Web)'|
+22:04:47|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutingAction|Route matched with {action = "Index", controller = "Login"}. Executing action Web.Controllers.LoginController.Index (Web)|
+22:04:47|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuting|Executing action method Web.Controllers.LoginController.Index (Web) - Validation state: Valid|
+22:04:47|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuted|Executed action method Web.Controllers.LoginController.Index (Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 3.6241ms.|
+22:04:47|Info|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.MvcViewFeaturesLoggerExtensions.ViewResultExecuting|Executing ViewResult, running view Index.|
+22:04:47|Info|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.MvcViewFeaturesLoggerExtensions.ViewResultExecuted|Executed ViewResult - view Index executed in 65.1526ms.|
+22:04:47|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutedAction|Executed action Web.Controllers.LoginController.Index (Web) in 93.0555ms|
+22:04:47|Info|Microsoft.AspNetCore.Routing.EndpointMiddleware+Log.ExecutedEndpoint|Executed endpoint 'Web.Controllers.LoginController.Index (Web)'|
+22:04:47|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished|Request finished in 164.0447ms 200 text/html; charset=utf-8|
+22:04:47|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting|Request starting HTTP/1.1 GET http://localhost:63313/js/jquery-2.2.4.min.js  |
+22:04:47|Info|Microsoft.AspNetCore.StaticFiles.LoggerExtensions.LogFileServed|Sending file. Request path: '/js/jquery-2.2.4.min.js'. Physical path: 'G:\学习\GitHub\调度\Job\Job\Web\Web\wwwroot\js\jquery-2.2.4.min.js'|
+22:04:47|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished|Request finished in 36.295ms 200 application/javascript|
+22:08:17|Info|Microsoft.Extensions.Logging.LoggingExtensions.UsingProfileAsKeyRepositoryWithDPAPI|User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.|
+22:08:17|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting|Request starting HTTP/1.1 GET http://localhost:63313/  |
+22:08:17|Info|Microsoft.AspNetCore.Routing.EndpointMiddleware+Log.ExecutingEndpoint|Executing endpoint 'Web.Controllers.LoginController.Index (Web)'|
+22:08:17|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutingAction|Route matched with {action = "Index", controller = "Login"}. Executing action Web.Controllers.LoginController.Index (Web)|
+22:08:17|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuting|Executing action method Web.Controllers.LoginController.Index (Web) - Validation state: Valid|
+22:08:17|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuted|Executed action method Web.Controllers.LoginController.Index (Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.5692ms.|
+22:08:17|Info|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.MvcViewFeaturesLoggerExtensions.ViewResultExecuting|Executing ViewResult, running view Index.|
+22:08:17|Info|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.MvcViewFeaturesLoggerExtensions.ViewResultExecuted|Executed ViewResult - view Index executed in 66.9796ms.|
+22:08:17|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutedAction|Executed action Web.Controllers.LoginController.Index (Web) in 93.3494ms|
+22:08:17|Info|Microsoft.AspNetCore.Routing.EndpointMiddleware+Log.ExecutedEndpoint|Executed endpoint 'Web.Controllers.LoginController.Index (Web)'|
+22:08:17|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished|Request finished in 168.874ms 200 text/html; charset=utf-8|
+22:08:17|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting|Request starting HTTP/1.1 GET http://localhost:63313/js/jquery-2.2.4.min.js  |
+22:08:17|Info|Microsoft.AspNetCore.StaticFiles.LoggerExtensions.LogFileServed|Sending file. Request path: '/js/jquery-2.2.4.min.js'. Physical path: 'G:\学习\GitHub\调度\Job\Job\Web\Web\wwwroot\js\jquery-2.2.4.min.js'|
+22:08:17|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished|Request finished in 34.9793ms 200 application/javascript|
+22:10:41|Info|Microsoft.Extensions.Logging.LoggingExtensions.UsingProfileAsKeyRepositoryWithDPAPI|User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.|
+22:10:41|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting|Request starting HTTP/1.1 GET http://localhost:63313/  |
+22:10:41|Info|Microsoft.AspNetCore.Routing.EndpointMiddleware+Log.ExecutingEndpoint|Executing endpoint 'Web.Controllers.LoginController.Index (Web)'|
+22:10:41|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutingAction|Route matched with {action = "Index", controller = "Login"}. Executing action Web.Controllers.LoginController.Index (Web)|
+22:10:41|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuting|Executing action method Web.Controllers.LoginController.Index (Web) - Validation state: Valid|
+22:10:41|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuted|Executed action method Web.Controllers.LoginController.Index (Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.5834ms.|
+22:10:41|Info|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.MvcViewFeaturesLoggerExtensions.ViewResultExecuting|Executing ViewResult, running view Index.|
+22:10:41|Info|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.MvcViewFeaturesLoggerExtensions.ViewResultExecuted|Executed ViewResult - view Index executed in 76.197ms.|
+22:10:41|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutedAction|Executed action Web.Controllers.LoginController.Index (Web) in 100.5466ms|
+22:10:41|Info|Microsoft.AspNetCore.Routing.EndpointMiddleware+Log.ExecutedEndpoint|Executed endpoint 'Web.Controllers.LoginController.Index (Web)'|
+22:10:41|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished|Request finished in 185.0921ms 200 text/html; charset=utf-8|
+22:10:41|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting|Request starting HTTP/1.1 GET http://localhost:63313/js/jquery-2.2.4.min.js  |
+22:10:41|Info|Microsoft.AspNetCore.StaticFiles.LoggerExtensions.LogFileServed|Sending file. Request path: '/js/jquery-2.2.4.min.js'. Physical path: 'G:\学习\GitHub\调度\Job\Job\Web\Web\wwwroot\js\jquery-2.2.4.min.js'|
+22:10:41|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished|Request finished in 63.7679ms 200 application/javascript|
+22:10:55|Info|Microsoft.Extensions.Logging.LoggingExtensions.UsingProfileAsKeyRepositoryWithDPAPI|User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.|
+22:11:17|Info|Microsoft.Extensions.Logging.LoggingExtensions.UsingProfileAsKeyRepositoryWithDPAPI|User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.|
+22:15:26|Info|Microsoft.Extensions.Logging.LoggingExtensions.UsingProfileAsKeyRepositoryWithDPAPI|User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.|
+22:15:48|Info|Microsoft.Extensions.Logging.LoggingExtensions.UsingProfileAsKeyRepositoryWithDPAPI|User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.|
+22:15:50|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting|Request starting HTTP/1.1 GET http://localhost:5000/  |
+22:15:50|Info|Microsoft.AspNetCore.Routing.EndpointMiddleware+Log.ExecutingEndpoint|Executing endpoint 'Web.Controllers.LoginController.Index (Web)'|
+22:15:50|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutingAction|Route matched with {action = "Index", controller = "Login"}. Executing action Web.Controllers.LoginController.Index (Web)|
+22:15:50|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuting|Executing action method Web.Controllers.LoginController.Index (Web) - Validation state: Valid|
+22:15:50|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuted|Executed action method Web.Controllers.LoginController.Index (Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.726ms.|
+22:15:51|Info|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.MvcViewFeaturesLoggerExtensions.ViewResultExecuting|Executing ViewResult, running view Index.|
+22:15:51|Info|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.MvcViewFeaturesLoggerExtensions.ViewResultExecuted|Executed ViewResult - view Index executed in 64.1654ms.|
+22:15:51|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutedAction|Executed action Web.Controllers.LoginController.Index (Web) in 93.1514ms|
+22:15:51|Info|Microsoft.AspNetCore.Routing.EndpointMiddleware+Log.ExecutedEndpoint|Executed endpoint 'Web.Controllers.LoginController.Index (Web)'|
+22:15:51|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting|Request starting HTTP/1.1 GET http://localhost:5000/js/jquery-2.2.4.min.js  |
+22:15:51|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished|Request finished in 253.9232ms 200 text/html; charset=utf-8|
+22:15:51|Info|Microsoft.AspNetCore.StaticFiles.LoggerExtensions.LogFileServed|Sending file. Request path: '/js/jquery-2.2.4.min.js'. Physical path: 'G:\学习\GitHub\调度\Job\Job\Web\Web\wwwroot\js\jquery-2.2.4.min.js'|
+22:15:51|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished|Request finished in 30.8548ms 200 application/javascript|
+22:16:43|Info|Microsoft.Extensions.Logging.LoggingExtensions.UsingProfileAsKeyRepositoryWithDPAPI|User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.|
+22:17:03|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting|Request starting HTTP/1.1 GET http://localhost:61555/  |
+22:17:03|Info|Microsoft.AspNetCore.Routing.EndpointMiddleware+Log.ExecutingEndpoint|Executing endpoint 'Web.Controllers.LoginController.Index (Web)'|
+22:17:03|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutingAction|Route matched with {action = "Index", controller = "Login"}. Executing action Web.Controllers.LoginController.Index (Web)|
+22:17:03|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuting|Executing action method Web.Controllers.LoginController.Index (Web) - Validation state: Valid|
+22:17:03|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuted|Executed action method Web.Controllers.LoginController.Index (Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.5827ms.|
+22:17:03|Info|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.MvcViewFeaturesLoggerExtensions.ViewResultExecuting|Executing ViewResult, running view Index.|
+22:17:03|Info|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.MvcViewFeaturesLoggerExtensions.ViewResultExecuted|Executed ViewResult - view Index executed in 66.0522ms.|
+22:17:03|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutedAction|Executed action Web.Controllers.LoginController.Index (Web) in 119.0661ms|
+22:17:03|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting|Request starting HTTP/1.1 GET http://localhost:61555/js/jquery-2.2.4.min.js  |
+22:17:03|Info|Microsoft.AspNetCore.Routing.EndpointMiddleware+Log.ExecutedEndpoint|Executed endpoint 'Web.Controllers.LoginController.Index (Web)'|
+22:17:03|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished|Request finished in 258.3405ms 200 text/html; charset=utf-8|
+22:17:03|Info|Microsoft.AspNetCore.StaticFiles.LoggerExtensions.LogFileServed|Sending file. Request path: '/js/jquery-2.2.4.min.js'. Physical path: 'G:\学习\GitHub\调度\Job\Job\Web\Web\wwwroot\js\jquery-2.2.4.min.js'|
+22:17:03|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished|Request finished in 42.5769ms 200 application/javascript|
+22:17:03|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting|Request starting HTTP/1.1 GET http://localhost:61555/favicon.ico  |
+22:17:03|Info|Microsoft.AspNetCore.StaticFiles.LoggerExtensions.LogFileServed|Sending file. Request path: '/favicon.ico'. Physical path: 'G:\学习\GitHub\调度\Job\Job\Web\Web\wwwroot\favicon.ico'|
+22:17:03|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished|Request finished in 8.6193ms 200 image/x-icon|
+22:18:50|Info|Microsoft.Extensions.Logging.LoggingExtensions.UsingProfileAsKeyRepositoryWithDPAPI|User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.|

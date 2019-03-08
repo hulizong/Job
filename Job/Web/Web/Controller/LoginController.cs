@@ -8,7 +8,8 @@ using Web.Model;
 using Web.Common;
 using Microsoft.Extensions.Configuration;
 using Web.DBHelper;
-using Web.Enums;
+using Web.Enums; 
+using Web.Common.LogHleper;
 
 namespace Web.Controllers
 {
@@ -33,7 +34,8 @@ namespace Web.Controllers
                 result.msg = "登录成功";
                 
                 return Json(new { result });
-            } 
+            }
+            LogHelp.Debug("登录失败：账号"+login.Phone+"  密码："+login.Password);
             result.msg = "登录失败";
             return Json(new { result });
         }

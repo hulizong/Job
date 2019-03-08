@@ -17,7 +17,7 @@ namespace Web.Common
             .Add(new JsonConfigurationSource { Path = "appsettings.json", ReloadOnChange = true })
             .Build();
             connectionStrings= new ConnectionStrings(Configuration);
-
+            setting = new Setting(Configuration);
         }
         public static ConnectionStrings connectionStrings { get; }
         public  class ConnectionStrings
@@ -42,6 +42,21 @@ namespace Web.Common
 
         }
 
+        public static Setting setting { get; }
+        public class Setting
+        {
+           
+            public string Host { get; }
+            public string ApiHost { get; }
+            public Setting(IConfiguration Configuration)
+            {
+                 
+                this.Host = Configuration.GetConnectionString("Host");
+                this.ApiHost = Configuration.GetConnectionString("ApiHost");
+            }
+
+
+        }
     }
 
   

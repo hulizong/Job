@@ -1,0 +1,3 @@
+22:12:03|Debug|Quartz.Impl.StdSchedulerFactory+<Instantiate>d__65.MoveNext|TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.|
+22:12:03|Debug|Quartz.Logging.LogProviders.NLogLogProvider+NLogLogger.Log|Batch acquisition of 0 triggers|
+22:12:03|Debug|Quartz.Logging.LogProviders.NLogLogProvider+NLogLogger.Log|Batch acquisition of 1 triggers|

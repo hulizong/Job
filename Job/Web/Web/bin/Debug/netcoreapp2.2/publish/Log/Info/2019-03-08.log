@@ -1,0 +1,20 @@
+21:29:08|Info|Microsoft.Extensions.Logging.LoggingExtensions.UsingRegistryAsKeyRepositoryWithDPAPI|User profile not available. Using 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0\AutoGenKeys\S-1-5-82-2971860261-2701350812-2118117159-340795515-2183480550\DataProtection' as key repository and Windows DPAPI to encrypt keys at rest.|
+21:29:08|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting|Request starting HTTP/1.1 GET http://192.168.20.130:8010/  |
+21:29:08|Info|Microsoft.AspNetCore.Routing.EndpointMiddleware+Log.ExecutingEndpoint|Executing endpoint 'Web.Controllers.LoginController.Index (Web)'|
+21:29:08|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutingAction|Route matched with {action = "Index", controller = "Login"}. Executing action Web.Controllers.LoginController.Index (Web)|
+21:29:08|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuting|Executing action method Web.Controllers.LoginController.Index (Web) - Validation state: Valid|
+21:29:08|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuted|Executed action method Web.Controllers.LoginController.Index (Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.3708ms.|
+21:29:08|Info|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.MvcViewFeaturesLoggerExtensions.ViewResultExecuting|Executing ViewResult, running view Index.|
+21:29:09|Info|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.MvcViewFeaturesLoggerExtensions.ViewResultExecuted|Executed ViewResult - view Index executed in 61.0683ms.|
+21:29:09|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutedAction|Executed action Web.Controllers.LoginController.Index (Web) in 87.5646ms|
+21:29:09|Info|Microsoft.AspNetCore.Routing.EndpointMiddleware+Log.ExecutedEndpoint|Executed endpoint 'Web.Controllers.LoginController.Index (Web)'|
+21:29:09|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished|Request finished in 160.2736ms 200 text/html; charset=utf-8|
+21:29:10|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting|Request starting HTTP/1.1 POST http://192.168.20.130:8010/Login/Login application/x-www-form-urlencoded; charset=UTF-8 22|
+21:29:10|Info|Microsoft.AspNetCore.Routing.EndpointMiddleware+Log.ExecutingEndpoint|Executing endpoint 'Web.Controllers.LoginController.Login (Web)'|
+21:29:10|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutingAction|Route matched with {action = "Login", controller = "Login"}. Executing action Web.Controllers.LoginController.Login (Web)|
+21:29:10|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuting|Executing action method Web.Controllers.LoginController.Login (Web) with arguments (Web.Model.Login) - Validation state: Valid|
+21:29:10|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuted|Executed action method Web.Controllers.LoginController.Login (Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 82.0799ms.|
+21:29:10|Info|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.MvcJsonLoggerExtensions.JsonResultExecuting|Executing JsonResult, writing value of type '<>f__AnonymousType0`1[[Web.Common.Response`1[[System.Object, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.|
+21:29:10|Info|Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutedAction|Executed action Web.Controllers.LoginController.Login (Web) in 136.6808ms|
+21:29:10|Info|Microsoft.AspNetCore.Routing.EndpointMiddleware+Log.ExecutedEndpoint|Executed endpoint 'Web.Controllers.LoginController.Login (Web)'|
+21:29:10|Info|Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished|Request finished in 153.7402ms 200 application/json; charset=utf-8|

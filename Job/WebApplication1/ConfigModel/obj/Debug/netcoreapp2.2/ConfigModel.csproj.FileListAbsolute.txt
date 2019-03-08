@@ -6,3 +6,4 @@ G:\学习\GitHub\调度\Job\Job\WebApplication1\ConfigModel\obj\Debug\netcoreapp
 G:\学习\GitHub\调度\Job\Job\WebApplication1\ConfigModel\obj\Debug\netcoreapp2.2\ConfigModel.AssemblyInfo.cs
 G:\学习\GitHub\调度\Job\Job\WebApplication1\ConfigModel\obj\Debug\netcoreapp2.2\ConfigModel.dll
 G:\学习\GitHub\调度\Job\Job\WebApplication1\ConfigModel\obj\Debug\netcoreapp2.2\ConfigModel.pdb
+G:\学习\GitHub\调度\Job\Job\WebApplication1\ConfigModel\obj\Debug\netcoreapp2.2\ConfigModel.csprojAssemblyReference.cache

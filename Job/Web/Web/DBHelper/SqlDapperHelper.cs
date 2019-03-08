@@ -8,6 +8,7 @@ using System.Data.SqlClient;
 using Dapper.Contrib.Extensions;
 using Web.Common;
 using Microsoft.Extensions.Configuration;
+using Web.Common.LogHleper;
 
 namespace Web.DBHelper
 {
@@ -46,6 +47,7 @@ namespace Web.DBHelper
             {
                 using (IDbConnection conn = GetConnection(useWrite))
                 {
+                   
                     conn.Open(); 
                    return conn.QueryFirstOrDefault<T>(sql, param, tran, commontouttime); 
                 }
