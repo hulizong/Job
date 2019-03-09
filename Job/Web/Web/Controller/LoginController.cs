@@ -16,6 +16,7 @@ using System.Text;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using System.Net;
+using Web.RedisHelper;
 
 namespace Web.Controllers
 {
@@ -43,10 +44,23 @@ namespace Web.Controllers
 
                 try
                 {
+                    //存redis
+                    RedisManager.redisHelp.SetValue("Login", JsonConvert.SerializeObject(tokens));
+                }
+                catch (Exception ex)
+                {
 
+                    throw;
+                }
+
+
+                try
+                {
+                    //登录加密保存信息
 
                     //var token = AESEncrypt(JsonConvert.SerializeObject(tokens));
                     // Convert.ToBase64String(Encode(Encoding.UTF8.GetBytes(password)));
+                   
                     var token = Convert.ToBase64String(AESEncrypt(JsonConvert.SerializeObject(tokens)));
                     //SignIn(tokens, true).Wait();
                 }
@@ -57,6 +71,8 @@ namespace Web.Controllers
                 }
                 return Json(new { result });
             }
+
+            //测试日志
             LogHelp.Debug("登录失败：账号"+login.Phone+"  密码："+login.Password);
             result.msg = "登录失败";
             return Json(new { result });
@@ -64,7 +80,8 @@ namespace Web.Controllers
 
         public ActionResult See()
         {
-            
+            //测试拿redis
+            var redis = RedisManager.redisHelp.GetValue("Login");
             return View();
         }
 

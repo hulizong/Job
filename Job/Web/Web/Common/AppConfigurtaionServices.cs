@@ -24,8 +24,7 @@ namespace Web.Common
         {
             public  string DapperRead { get; }
             public string DapperWrite { get; }
-            public string RedisConnMain { get; }
-            public string RedisConnVice { get; }
+            public string Redis { get; } 
             public string RabbitMqHostName { get; }
             public string RabbitMqUserName { get; }
             public string RabbitMqPassword { get; } 
@@ -33,8 +32,7 @@ namespace Web.Common
             { 
                 this.DapperRead=  Configuration.GetConnectionString("DapperRead");
                 this.DapperWrite = Configuration.GetConnectionString("DapperWrite");
-                this.RedisConnMain = Configuration.GetConnectionString("RedisConnMain");
-                this.RedisConnVice = Configuration.GetConnectionString("RedisConnVice");
+                this.Redis = Configuration.GetConnectionString("Redis"); 
                 this.RabbitMqHostName = Configuration.GetConnectionString("RabbitMqHostName");
                 this.RabbitMqUserName = Configuration.GetConnectionString("RabbitMqUserName");
                 this.RabbitMqPassword = Configuration.GetConnectionString("RabbitMqPassword");
