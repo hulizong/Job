@@ -14,7 +14,7 @@ namespace Web
 {
     public class Program
     {
-        public static string a;
+        public static string host;
         public static void Main(string[] args)
         {
 
@@ -22,7 +22,7 @@ namespace Web
             IConfiguration config = new ConfigurationBuilder()
             .Add(new JsonConfigurationSource { Path = "appsettings.json", ReloadOnChange = true })
             .Build();
-            a = config["Setting:Host"];
+            host = config["Setting:Host"];
 
             CreateWebHostBuilder(args).Build().Run();
         }
@@ -30,7 +30,12 @@ namespace Web
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
            WebHost.CreateDefaultBuilder(args)
                .UseNLog() 
-            .UseUrls(a)
+               .UseUrls(host)
+              .ConfigureLogging(logging =>
+                {
+                    logging.ClearProviders(); //移除已经注册的其他日志处理程序
+                    logging.SetMinimumLevel(LogLevel.Error); //设置最小的日志级别
+                })
                .UseStartup<Startup>();
     }
 }
