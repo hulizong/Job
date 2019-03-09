@@ -24,3 +24,4 @@ G:\学习\GitHub\调度\Job\Job\Web\Web\obj\Debug\netcoreapp2.2\Web.dll
 G:\学习\GitHub\调度\Job\Job\Web\Web\obj\Debug\netcoreapp2.2\Web.pdb
 G:\学习\GitHub\调度\Job\Job\Web\Web\obj\Debug\netcoreapp2.2\Web.csproj.CopyComplete
 G:\学习\GitHub\调度\Job\Job\Web\Web\obj\Debug\netcoreapp2.2\Web.csprojAssemblyReference.cache
+G:\学习\GitHub\调度\Job\Job\Web\Web\obj\Debug\netcoreapp2.2\Razor\Views\Info\Index.g.cshtml.cs

@@ -26,9 +26,9 @@ namespace Web.Common.LogHleper
         {
             logger.Error(info);
         }
-        public static void Error(Exception ex, string info)
+        public static void Error(Exception ex, string info=null)
         {
-            logger.Error(ex, info = "");
+            logger.Error(ex, info);
         }
     }
 }

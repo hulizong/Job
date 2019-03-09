@@ -1,0 +1,48 @@
+NLog: 10:32:11 | ERROR | |System.ArgumentNullException: String reference not set to an instance of a String.
+Parameter name: s
+   at System.Text.Encoding.GetBytes(String s)
+   at Web.Controllers.BaseController.get_login() in G:\学习\GitHub\调度\Job\Job\Web\Web\Controller\BaseController.cs:line 35
+NLog: 10:42:11 | ERROR | |System.ArgumentNullException: String reference not set to an instance of a String.
+Parameter name: s
+   at System.Text.Encoding.GetBytes(String s)
+   at Web.Controllers.BaseController.get_login() in G:\学习\GitHub\调度\Job\Job\Web\Web\Controller\BaseController.cs:line 35
+NLog: 11:06:12 | ERROR | |System.Security.Cryptography.CryptographicException: Padding is invalid and cannot be removed.
+   at Internal.Cryptography.UniversalCryptoDecryptor.DepadBlock(Byte[] block, Int32 offset, Int32 count)
+   at Internal.Cryptography.UniversalCryptoDecryptor.UncheckedTransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at Internal.Cryptography.UniversalCryptoTransform.TransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at System.Security.Cryptography.CryptoStream.ReadAsyncCore(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken, Boolean useAsync)
+   at System.Security.Cryptography.CryptoStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at Web.Controllers.BaseController.AESDecrypt(Byte[] cipherText) in G:\学习\GitHub\调度\Job\Job\Web\Web\Controller\BaseController.cs:line 134
+   at Web.Controllers.BaseController.get_login() in G:\学习\GitHub\调度\Job\Job\Web\Web\Controller\BaseController.cs:line 35
+NLog: 11:06:42 | ERROR | |System.Security.Cryptography.CryptographicException: Padding is invalid and cannot be removed.
+   at Internal.Cryptography.UniversalCryptoDecryptor.DepadBlock(Byte[] block, Int32 offset, Int32 count)
+   at Internal.Cryptography.UniversalCryptoDecryptor.UncheckedTransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at Internal.Cryptography.UniversalCryptoTransform.TransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at System.Security.Cryptography.CryptoStream.ReadAsyncCore(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken, Boolean useAsync)
+   at System.Security.Cryptography.CryptoStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at Web.Controllers.BaseController.AESDecrypt(Byte[] cipherText) in G:\学习\GitHub\调度\Job\Job\Web\Web\Controller\BaseController.cs:line 134
+   at Web.Controllers.BaseController.get_login() in G:\学习\GitHub\调度\Job\Job\Web\Web\Controller\BaseController.cs:line 35
+NLog: 11:07:12 | ERROR | |System.Security.Cryptography.CryptographicException: Padding is invalid and cannot be removed.
+   at Internal.Cryptography.UniversalCryptoDecryptor.DepadBlock(Byte[] block, Int32 offset, Int32 count)
+   at Internal.Cryptography.UniversalCryptoDecryptor.UncheckedTransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at Internal.Cryptography.UniversalCryptoTransform.TransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at System.Security.Cryptography.CryptoStream.ReadAsyncCore(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken, Boolean useAsync)
+   at System.Security.Cryptography.CryptoStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at Web.Controllers.BaseController.AESDecrypt(Byte[] cipherText) in G:\学习\GitHub\调度\Job\Job\Web\Web\Controller\BaseController.cs:line 134
+   at Web.Controllers.BaseController.get_login() in G:\学习\GitHub\调度\Job\Job\Web\Web\Controller\BaseController.cs:line 35
+NLog: 11:56:54 | ERROR | |System.Security.Cryptography.CryptographicException: Padding is invalid and cannot be removed.
+   at Internal.Cryptography.UniversalCryptoDecryptor.DepadBlock(Byte[] block, Int32 offset, Int32 count)
+   at Internal.Cryptography.UniversalCryptoDecryptor.UncheckedTransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at Internal.Cryptography.UniversalCryptoTransform.TransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at System.Security.Cryptography.CryptoStream.ReadAsyncCore(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken, Boolean useAsync)
+   at System.Security.Cryptography.CryptoStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at Web.Controllers.BaseController.AESDecrypt(Byte[] cipherText) in G:\学习\GitHub\调度\Job\Job\Web\Web\Controller\BaseController.cs:line 134
+   at Web.Controllers.BaseController.get_login() in G:\学习\GitHub\调度\Job\Job\Web\Web\Controller\BaseController.cs:line 35
+NLog: 12:00:35 | ERROR | |System.ArgumentNullException: String reference not set to an instance of a String.
+Parameter name: s
+   at System.Text.Encoding.GetBytes(String s)
+   at Web.Controllers.BaseController.get_login() in G:\学习\GitHub\调度\Job\Job\Web\Web\Controller\BaseController.cs:line 35
+NLog: 12:01:30 | ERROR | |System.ArgumentNullException: String reference not set to an instance of a String.
+Parameter name: s
+   at System.Text.Encoding.GetBytes(String s)
+   at Web.Controllers.BaseController.get_login() in G:\学习\GitHub\调度\Job\Job\Web\Web\Controller\BaseController.cs:line 35

@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -30,7 +31,14 @@ namespace Web
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-
+            services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+               .AddCookie(opt => { opt.LoginPath = new PathString("/Login/Index/"); });
+            //services.AddAuthentication("token")
+            //   .AddCookie("token", options => {
+            //       options.AccessDeniedPath = "/Account/Forbidden/";
+            //       options.LoginPath = "/Login/Unauthorized/";
+            //   });
+            services.AddSession();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
@@ -47,8 +55,10 @@ namespace Web
             }
 
             app.UseStaticFiles();
+
+            app.UseSession();
             app.UseCookiePolicy();
-            
+            app.UseAuthentication();
             app.UseMvc(routes =>
             {
                 routes.MapRoute("default", "{controller=Login}/{action=Index}/{id?}");
