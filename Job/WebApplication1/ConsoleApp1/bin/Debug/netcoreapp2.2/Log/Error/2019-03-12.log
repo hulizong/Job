@@ -1,0 +1,290 @@
+16:33:49|Error|Quartz.Logging.LogProviders.NLogLogProvider+NLogLogger.Log|Job gtoup第一组.name测试 threw an unhandled Exception: |RabbitMQ.Client.Exceptions.OperationInterruptedException: The AMQP operation was interrupted: AMQP close-reason, initiated by Peer, code=404, text="NOT_FOUND - no queue 'PushMQCeShi' in vhost '/'", classId=60, methodId=20, cause=
+   at RabbitMQ.Client.Impl.SimpleBlockingRpcContinuation.GetReply(TimeSpan timeout)
+   at RabbitMQ.Client.Impl.ModelBase.BasicConsume(String queue, Boolean autoAck, String consumerTag, Boolean noLocal, Boolean exclusive, IDictionary`2 arguments, IBasicConsumer consumer)
+   at RabbitMQ.Client.Impl.AutorecoveringModel.BasicConsume(String queue, Boolean autoAck, String consumerTag, Boolean noLocal, Boolean exclusive, IDictionary`2 arguments, IBasicConsumer consumer)
+   at RabbitMQ.Client.IModelExensions.BasicConsume(IModel model, String queue, Boolean autoAck, IBasicConsumer consumer)
+   at Web.RabbitMQ.ReceiveMQ.GetMQ[T](Func`2 func, String queueName) in G:\学习\GitHub\调度\Job\Job\WebApplication1\Common\RabbitMQ\ReceiveMQ.cs:line 45
+   at Job.StartWriteJob.Start() in G:\学习\GitHub\调度\Job\Job\WebApplication1\Job\StartWriteJob.cs:line 24
+   at Job.StartWriteJob.Execute(IJobExecutionContext context) in G:\学习\GitHub\调度\Job\Job\WebApplication1\Job\StartWriteJob.cs:line 19
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken) in C:\projects\quartznet\src\Quartz\Core\JobRunShell.cs:line 193
+16:33:52|Error|Quartz.Logging.LogProviders.NLogLogProvider+NLogLogger.Log|Job gtoup第一组.name测试 threw an exception.|Quartz.SchedulerException: Job threw an unhandled exception. ---> RabbitMQ.Client.Exceptions.OperationInterruptedException: The AMQP operation was interrupted: AMQP close-reason, initiated by Peer, code=404, text="NOT_FOUND - no queue 'PushMQCeShi' in vhost '/'", classId=60, methodId=20, cause=
+   at RabbitMQ.Client.Impl.SimpleBlockingRpcContinuation.GetReply(TimeSpan timeout)
+   at RabbitMQ.Client.Impl.ModelBase.BasicConsume(String queue, Boolean autoAck, String consumerTag, Boolean noLocal, Boolean exclusive, IDictionary`2 arguments, IBasicConsumer consumer)
+   at RabbitMQ.Client.Impl.AutorecoveringModel.BasicConsume(String queue, Boolean autoAck, String consumerTag, Boolean noLocal, Boolean exclusive, IDictionary`2 arguments, IBasicConsumer consumer)
+   at RabbitMQ.Client.IModelExensions.BasicConsume(IModel model, String queue, Boolean autoAck, IBasicConsumer consumer)
+   at Web.RabbitMQ.ReceiveMQ.GetMQ[T](Func`2 func, String queueName) in G:\学习\GitHub\调度\Job\Job\WebApplication1\Common\RabbitMQ\ReceiveMQ.cs:line 45
+   at Job.StartWriteJob.Start() in G:\学习\GitHub\调度\Job\Job\WebApplication1\Job\StartWriteJob.cs:line 24
+   at Job.StartWriteJob.Execute(IJobExecutionContext context) in G:\学习\GitHub\调度\Job\Job\WebApplication1\Job\StartWriteJob.cs:line 19
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken) in C:\projects\quartznet\src\Quartz\Core\JobRunShell.cs:line 193
+   --- End of inner exception stack trace --- [See nested exception: RabbitMQ.Client.Exceptions.OperationInterruptedException: The AMQP operation was interrupted: AMQP close-reason, initiated by Peer, code=404, text="NOT_FOUND - no queue 'PushMQCeShi' in vhost '/'", classId=60, methodId=20, cause=
+   at RabbitMQ.Client.Impl.SimpleBlockingRpcContinuation.GetReply(TimeSpan timeout)
+   at RabbitMQ.Client.Impl.ModelBase.BasicConsume(String queue, Boolean autoAck, String consumerTag, Boolean noLocal, Boolean exclusive, IDictionary`2 arguments, IBasicConsumer consumer)
+   at RabbitMQ.Client.Impl.AutorecoveringModel.BasicConsume(String queue, Boolean autoAck, String consumerTag, Boolean noLocal, Boolean exclusive, IDictionary`2 arguments, IBasicConsumer consumer)
+   at RabbitMQ.Client.IModelExensions.BasicConsume(IModel model, String queue, Boolean autoAck, IBasicConsumer consumer)
+   at Web.RabbitMQ.ReceiveMQ.GetMQ[T](Func`2 func, String queueName) in G:\学习\GitHub\调度\Job\Job\WebApplication1\Common\RabbitMQ\ReceiveMQ.cs:line 45
+   at Job.StartWriteJob.Start() in G:\学习\GitHub\调度\Job\Job\WebApplication1\Job\StartWriteJob.cs:line 24
+   at Job.StartWriteJob.Execute(IJobExecutionContext context) in G:\学习\GitHub\调度\Job\Job\WebApplication1\Job\StartWriteJob.cs:line 19
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken) in C:\projects\quartznet\src\Quartz\Core\JobRunShell.cs:line 193]
+16:33:52|Error|Quartz.Logging.LogProviders.NLogLogProvider+NLogLogger.Log|Job gtoup第一组.name测试 threw an unhandled Exception: |RabbitMQ.Client.Exceptions.OperationInterruptedException: The AMQP operation was interrupted: AMQP close-reason, initiated by Peer, code=404, text="NOT_FOUND - no queue 'PushMQCeShi' in vhost '/'", classId=60, methodId=20, cause=
+   at RabbitMQ.Client.Impl.SimpleBlockingRpcContinuation.GetReply(TimeSpan timeout)
+   at RabbitMQ.Client.Impl.ModelBase.BasicConsume(String queue, Boolean autoAck, String consumerTag, Boolean noLocal, Boolean exclusive, IDictionary`2 arguments, IBasicConsumer consumer)
+   at RabbitMQ.Client.Impl.AutorecoveringModel.BasicConsume(String queue, Boolean autoAck, String consumerTag, Boolean noLocal, Boolean exclusive, IDictionary`2 arguments, IBasicConsumer consumer)
+   at RabbitMQ.Client.IModelExensions.BasicConsume(IModel model, String queue, Boolean autoAck, IBasicConsumer consumer)
+   at Web.RabbitMQ.ReceiveMQ.GetMQ[T](Func`2 func, String queueName) in G:\学习\GitHub\调度\Job\Job\WebApplication1\Common\RabbitMQ\ReceiveMQ.cs:line 45
+   at Job.StartWriteJob.Start() in G:\学习\GitHub\调度\Job\Job\WebApplication1\Job\StartWriteJob.cs:line 24
+   at Job.StartWriteJob.Execute(IJobExecutionContext context) in G:\学习\GitHub\调度\Job\Job\WebApplication1\Job\StartWriteJob.cs:line 19
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken) in C:\projects\quartznet\src\Quartz\Core\JobRunShell.cs:line 193
+16:33:52|Error|Quartz.Logging.LogProviders.NLogLogProvider+NLogLogger.Log|Job gtoup第一组.name测试 threw an exception.|Quartz.SchedulerException: Job threw an unhandled exception. ---> RabbitMQ.Client.Exceptions.OperationInterruptedException: The AMQP operation was interrupted: AMQP close-reason, initiated by Peer, code=404, text="NOT_FOUND - no queue 'PushMQCeShi' in vhost '/'", classId=60, methodId=20, cause=
+   at RabbitMQ.Client.Impl.SimpleBlockingRpcContinuation.GetReply(TimeSpan timeout)
+   at RabbitMQ.Client.Impl.ModelBase.BasicConsume(String queue, Boolean autoAck, String consumerTag, Boolean noLocal, Boolean exclusive, IDictionary`2 arguments, IBasicConsumer consumer)
+   at RabbitMQ.Client.Impl.AutorecoveringModel.BasicConsume(String queue, Boolean autoAck, String consumerTag, Boolean noLocal, Boolean exclusive, IDictionary`2 arguments, IBasicConsumer consumer)
+   at RabbitMQ.Client.IModelExensions.BasicConsume(IModel model, String queue, Boolean autoAck, IBasicConsumer consumer)
+   at Web.RabbitMQ.ReceiveMQ.GetMQ[T](Func`2 func, String queueName) in G:\学习\GitHub\调度\Job\Job\WebApplication1\Common\RabbitMQ\ReceiveMQ.cs:line 45
+   at Job.StartWriteJob.Start() in G:\学习\GitHub\调度\Job\Job\WebApplication1\Job\StartWriteJob.cs:line 24
+   at Job.StartWriteJob.Execute(IJobExecutionContext context) in G:\学习\GitHub\调度\Job\Job\WebApplication1\Job\StartWriteJob.cs:line 19
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken) in C:\projects\quartznet\src\Quartz\Core\JobRunShell.cs:line 193
+   --- End of inner exception stack trace --- [See nested exception: RabbitMQ.Client.Exceptions.OperationInterruptedException: The AMQP operation was interrupted: AMQP close-reason, initiated by Peer, code=404, text="NOT_FOUND - no queue 'PushMQCeShi' in vhost '/'", classId=60, methodId=20, cause=
+   at RabbitMQ.Client.Impl.SimpleBlockingRpcContinuation.GetReply(TimeSpan timeout)
+   at RabbitMQ.Client.Impl.ModelBase.BasicConsume(String queue, Boolean autoAck, String consumerTag, Boolean noLocal, Boolean exclusive, IDictionary`2 arguments, IBasicConsumer consumer)
+   at RabbitMQ.Client.Impl.AutorecoveringModel.BasicConsume(String queue, Boolean autoAck, String consumerTag, Boolean noLocal, Boolean exclusive, IDictionary`2 arguments, IBasicConsumer consumer)
+   at RabbitMQ.Client.IModelExensions.BasicConsume(IModel model, String queue, Boolean autoAck, IBasicConsumer consumer)
+   at Web.RabbitMQ.ReceiveMQ.GetMQ[T](Func`2 func, String queueName) in G:\学习\GitHub\调度\Job\Job\WebApplication1\Common\RabbitMQ\ReceiveMQ.cs:line 45
+   at Job.StartWriteJob.Start() in G:\学习\GitHub\调度\Job\Job\WebApplication1\Job\StartWriteJob.cs:line 24
+   at Job.StartWriteJob.Execute(IJobExecutionContext context) in G:\学习\GitHub\调度\Job\Job\WebApplication1\Job\StartWriteJob.cs:line 19
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken) in C:\projects\quartznet\src\Quartz\Core\JobRunShell.cs:line 193]
+16:34:09|Error|Quartz.Logging.LogProviders.NLogLogProvider+NLogLogger.Log|Job gtoup第一组.name测试 threw an unhandled Exception: |RabbitMQ.Client.Exceptions.OperationInterruptedException: The AMQP operation was interrupted: AMQP close-reason, initiated by Peer, code=404, text="NOT_FOUND - no queue 'PushMQCeShi' in vhost '/'", classId=60, methodId=20, cause=
+   at RabbitMQ.Client.Impl.SimpleBlockingRpcContinuation.GetReply(TimeSpan timeout)
+   at RabbitMQ.Client.Impl.ModelBase.BasicConsume(String queue, Boolean autoAck, String consumerTag, Boolean noLocal, Boolean exclusive, IDictionary`2 arguments, IBasicConsumer consumer)
+   at RabbitMQ.Client.Impl.AutorecoveringModel.BasicConsume(String queue, Boolean autoAck, String consumerTag, Boolean noLocal, Boolean exclusive, IDictionary`2 arguments, IBasicConsumer consumer)
+   at RabbitMQ.Client.IModelExensions.BasicConsume(IModel model, String queue, Boolean autoAck, IBasicConsumer consumer)
+   at Web.RabbitMQ.ReceiveMQ.GetMQ[T](Func`2 func, String queueName) in G:\学习\GitHub\调度\Job\Job\WebApplication1\Common\RabbitMQ\ReceiveMQ.cs:line 45
+   at Job.StartWriteJob.Start() in G:\学习\GitHub\调度\Job\Job\WebApplication1\Job\StartWriteJob.cs:line 24
+   at Job.StartWriteJob.Execute(IJobExecutionContext context) in G:\学习\GitHub\调度\Job\Job\WebApplication1\Job\StartWriteJob.cs:line 19
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken) in C:\projects\quartznet\src\Quartz\Core\JobRunShell.cs:line 193
+16:34:09|Error|Quartz.Logging.LogProviders.NLogLogProvider+NLogLogger.Log|Job gtoup第一组.name测试 threw an exception.|Quartz.SchedulerException: Job threw an unhandled exception. ---> RabbitMQ.Client.Exceptions.OperationInterruptedException: The AMQP operation was interrupted: AMQP close-reason, initiated by Peer, code=404, text="NOT_FOUND - no queue 'PushMQCeShi' in vhost '/'", classId=60, methodId=20, cause=
+   at RabbitMQ.Client.Impl.SimpleBlockingRpcContinuation.GetReply(TimeSpan timeout)
+   at RabbitMQ.Client.Impl.ModelBase.BasicConsume(String queue, Boolean autoAck, String consumerTag, Boolean noLocal, Boolean exclusive, IDictionary`2 arguments, IBasicConsumer consumer)
+   at RabbitMQ.Client.Impl.AutorecoveringModel.BasicConsume(String queue, Boolean autoAck, String consumerTag, Boolean noLocal, Boolean exclusive, IDictionary`2 arguments, IBasicConsumer consumer)
+   at RabbitMQ.Client.IModelExensions.BasicConsume(IModel model, String queue, Boolean autoAck, IBasicConsumer consumer)
+   at Web.RabbitMQ.ReceiveMQ.GetMQ[T](Func`2 func, String queueName) in G:\学习\GitHub\调度\Job\Job\WebApplication1\Common\RabbitMQ\ReceiveMQ.cs:line 45
+   at Job.StartWriteJob.Start() in G:\学习\GitHub\调度\Job\Job\WebApplication1\Job\StartWriteJob.cs:line 24
+   at Job.StartWriteJob.Execute(IJobExecutionContext context) in G:\学习\GitHub\调度\Job\Job\WebApplication1\Job\StartWriteJob.cs:line 19
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken) in C:\projects\quartznet\src\Quartz\Core\JobRunShell.cs:line 193
+   --- End of inner exception stack trace --- [See nested exception: RabbitMQ.Client.Exceptions.OperationInterruptedException: The AMQP operation was interrupted: AMQP close-reason, initiated by Peer, code=404, text="NOT_FOUND - no queue 'PushMQCeShi' in vhost '/'", classId=60, methodId=20, cause=
+   at RabbitMQ.Client.Impl.SimpleBlockingRpcContinuation.GetReply(TimeSpan timeout)
+   at RabbitMQ.Client.Impl.ModelBase.BasicConsume(String queue, Boolean autoAck, String consumerTag, Boolean noLocal, Boolean exclusive, IDictionary`2 arguments, IBasicConsumer consumer)
+   at RabbitMQ.Client.Impl.AutorecoveringModel.BasicConsume(String queue, Boolean autoAck, String consumerTag, Boolean noLocal, Boolean exclusive, IDictionary`2 arguments, IBasicConsumer consumer)
+   at RabbitMQ.Client.IModelExensions.BasicConsume(IModel model, String queue, Boolean autoAck, IBasicConsumer consumer)
+   at Web.RabbitMQ.ReceiveMQ.GetMQ[T](Func`2 func, String queueName) in G:\学习\GitHub\调度\Job\Job\WebApplication1\Common\RabbitMQ\ReceiveMQ.cs:line 45
+   at Job.StartWriteJob.Start() in G:\学习\GitHub\调度\Job\Job\WebApplication1\Job\StartWriteJob.cs:line 24
+   at Job.StartWriteJob.Execute(IJobExecutionContext context) in G:\学习\GitHub\调度\Job\Job\WebApplication1\Job\StartWriteJob.cs:line 19
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken) in C:\projects\quartznet\src\Quartz\Core\JobRunShell.cs:line 193]
+16:34:10|Error|Quartz.Logging.LogProviders.NLogLogProvider+NLogLogger.Log|Job gtoup第一组.name测试 threw an unhandled Exception: |RabbitMQ.Client.Exceptions.OperationInterruptedException: The AMQP operation was interrupted: AMQP close-reason, initiated by Peer, code=404, text="NOT_FOUND - no queue 'PushMQCeShi' in vhost '/'", classId=60, methodId=20, cause=
+   at RabbitMQ.Client.Impl.SimpleBlockingRpcContinuation.GetReply(TimeSpan timeout)
+   at RabbitMQ.Client.Impl.ModelBase.BasicConsume(String queue, Boolean autoAck, String consumerTag, Boolean noLocal, Boolean exclusive, IDictionary`2 arguments, IBasicConsumer consumer)
+   at RabbitMQ.Client.Impl.AutorecoveringModel.BasicConsume(String queue, Boolean autoAck, String consumerTag, Boolean noLocal, Boolean exclusive, IDictionary`2 arguments, IBasicConsumer consumer)
+   at RabbitMQ.Client.IModelExensions.BasicConsume(IModel model, String queue, Boolean autoAck, IBasicConsumer consumer)
+   at Web.RabbitMQ.ReceiveMQ.GetMQ[T](Func`2 func, String queueName) in G:\学习\GitHub\调度\Job\Job\WebApplication1\Common\RabbitMQ\ReceiveMQ.cs:line 45
+   at Job.StartWriteJob.Start() in G:\学习\GitHub\调度\Job\Job\WebApplication1\Job\StartWriteJob.cs:line 24
+   at Job.StartWriteJob.Execute(IJobExecutionContext context) in G:\学习\GitHub\调度\Job\Job\WebApplication1\Job\StartWriteJob.cs:line 19
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken) in C:\projects\quartznet\src\Quartz\Core\JobRunShell.cs:line 193
+16:34:10|Error|Quartz.Logging.LogProviders.NLogLogProvider+NLogLogger.Log|Job gtoup第一组.name测试 threw an exception.|Quartz.SchedulerException: Job threw an unhandled exception. ---> RabbitMQ.Client.Exceptions.OperationInterruptedException: The AMQP operation was interrupted: AMQP close-reason, initiated by Peer, code=404, text="NOT_FOUND - no queue 'PushMQCeShi' in vhost '/'", classId=60, methodId=20, cause=
+   at RabbitMQ.Client.Impl.SimpleBlockingRpcContinuation.GetReply(TimeSpan timeout)
+   at RabbitMQ.Client.Impl.ModelBase.BasicConsume(String queue, Boolean autoAck, String consumerTag, Boolean noLocal, Boolean exclusive, IDictionary`2 arguments, IBasicConsumer consumer)
+   at RabbitMQ.Client.Impl.AutorecoveringModel.BasicConsume(String queue, Boolean autoAck, String consumerTag, Boolean noLocal, Boolean exclusive, IDictionary`2 arguments, IBasicConsumer consumer)
+   at RabbitMQ.Client.IModelExensions.BasicConsume(IModel model, String queue, Boolean autoAck, IBasicConsumer consumer)
+   at Web.RabbitMQ.ReceiveMQ.GetMQ[T](Func`2 func, String queueName) in G:\学习\GitHub\调度\Job\Job\WebApplication1\Common\RabbitMQ\ReceiveMQ.cs:line 45
+   at Job.StartWriteJob.Start() in G:\学习\GitHub\调度\Job\Job\WebApplication1\Job\StartWriteJob.cs:line 24
+   at Job.StartWriteJob.Execute(IJobExecutionContext context) in G:\学习\GitHub\调度\Job\Job\WebApplication1\Job\StartWriteJob.cs:line 19
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken) in C:\projects\quartznet\src\Quartz\Core\JobRunShell.cs:line 193
+   --- End of inner exception stack trace --- [See nested exception: RabbitMQ.Client.Exceptions.OperationInterruptedException: The AMQP operation was interrupted: AMQP close-reason, initiated by Peer, code=404, text="NOT_FOUND - no queue 'PushMQCeShi' in vhost '/'", classId=60, methodId=20, cause=
+   at RabbitMQ.Client.Impl.SimpleBlockingRpcContinuation.GetReply(TimeSpan timeout)
+   at RabbitMQ.Client.Impl.ModelBase.BasicConsume(String queue, Boolean autoAck, String consumerTag, Boolean noLocal, Boolean exclusive, IDictionary`2 arguments, IBasicConsumer consumer)
+   at RabbitMQ.Client.Impl.AutorecoveringModel.BasicConsume(String queue, Boolean autoAck, String consumerTag, Boolean noLocal, Boolean exclusive, IDictionary`2 arguments, IBasicConsumer consumer)
+   at RabbitMQ.Client.IModelExensions.BasicConsume(IModel model, String queue, Boolean autoAck, IBasicConsumer consumer)
+   at Web.RabbitMQ.ReceiveMQ.GetMQ[T](Func`2 func, String queueName) in G:\学习\GitHub\调度\Job\Job\WebApplication1\Common\RabbitMQ\ReceiveMQ.cs:line 45
+   at Job.StartWriteJob.Start() in G:\学习\GitHub\调度\Job\Job\WebApplication1\Job\StartWriteJob.cs:line 24
+   at Job.StartWriteJob.Execute(IJobExecutionContext context) in G:\学习\GitHub\调度\Job\Job\WebApplication1\Job\StartWriteJob.cs:line 19
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken) in C:\projects\quartznet\src\Quartz\Core\JobRunShell.cs:line 193]
+16:35:03|Error|Quartz.Logging.LogProviders.NLogLogProvider+NLogLogger.Log|Job gtoup第一组.name测试 threw an unhandled Exception: |RabbitMQ.Client.Exceptions.OperationInterruptedException: The AMQP operation was interrupted: AMQP close-reason, initiated by Peer, code=404, text="NOT_FOUND - no queue 'PushMQCeShi' in vhost '/'", classId=60, methodId=20, cause=
+   at RabbitMQ.Client.Impl.SimpleBlockingRpcContinuation.GetReply(TimeSpan timeout)
+   at RabbitMQ.Client.Impl.ModelBase.BasicConsume(String queue, Boolean autoAck, String consumerTag, Boolean noLocal, Boolean exclusive, IDictionary`2 arguments, IBasicConsumer consumer)
+   at RabbitMQ.Client.Impl.AutorecoveringModel.BasicConsume(String queue, Boolean autoAck, String consumerTag, Boolean noLocal, Boolean exclusive, IDictionary`2 arguments, IBasicConsumer consumer)
+   at RabbitMQ.Client.IModelExensions.BasicConsume(IModel model, String queue, Boolean autoAck, IBasicConsumer consumer)
+   at Web.RabbitMQ.ReceiveMQ.GetMQ[T](Func`2 func, String queueName) in G:\学习\GitHub\调度\Job\Job\WebApplication1\Common\RabbitMQ\ReceiveMQ.cs:line 45
+   at Job.StartWriteJob.Start() in G:\学习\GitHub\调度\Job\Job\WebApplication1\Job\StartWriteJob.cs:line 24
+   at Job.StartWriteJob.Execute(IJobExecutionContext context) in G:\学习\GitHub\调度\Job\Job\WebApplication1\Job\StartWriteJob.cs:line 19
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken) in C:\projects\quartznet\src\Quartz\Core\JobRunShell.cs:line 193
+16:35:03|Error|Quartz.Logging.LogProviders.NLogLogProvider+NLogLogger.Log|Job gtoup第一组.name测试 threw an exception.|Quartz.SchedulerException: Job threw an unhandled exception. ---> RabbitMQ.Client.Exceptions.OperationInterruptedException: The AMQP operation was interrupted: AMQP close-reason, initiated by Peer, code=404, text="NOT_FOUND - no queue 'PushMQCeShi' in vhost '/'", classId=60, methodId=20, cause=
+   at RabbitMQ.Client.Impl.SimpleBlockingRpcContinuation.GetReply(TimeSpan timeout)
+   at RabbitMQ.Client.Impl.ModelBase.BasicConsume(String queue, Boolean autoAck, String consumerTag, Boolean noLocal, Boolean exclusive, IDictionary`2 arguments, IBasicConsumer consumer)
+   at RabbitMQ.Client.Impl.AutorecoveringModel.BasicConsume(String queue, Boolean autoAck, String consumerTag, Boolean noLocal, Boolean exclusive, IDictionary`2 arguments, IBasicConsumer consumer)
+   at RabbitMQ.Client.IModelExensions.BasicConsume(IModel model, String queue, Boolean autoAck, IBasicConsumer consumer)
+   at Web.RabbitMQ.ReceiveMQ.GetMQ[T](Func`2 func, String queueName) in G:\学习\GitHub\调度\Job\Job\WebApplication1\Common\RabbitMQ\ReceiveMQ.cs:line 45
+   at Job.StartWriteJob.Start() in G:\学习\GitHub\调度\Job\Job\WebApplication1\Job\StartWriteJob.cs:line 24
+   at Job.StartWriteJob.Execute(IJobExecutionContext context) in G:\学习\GitHub\调度\Job\Job\WebApplication1\Job\StartWriteJob.cs:line 19
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken) in C:\projects\quartznet\src\Quartz\Core\JobRunShell.cs:line 193
+   --- End of inner exception stack trace --- [See nested exception: RabbitMQ.Client.Exceptions.OperationInterruptedException: The AMQP operation was interrupted: AMQP close-reason, initiated by Peer, code=404, text="NOT_FOUND - no queue 'PushMQCeShi' in vhost '/'", classId=60, methodId=20, cause=
+   at RabbitMQ.Client.Impl.SimpleBlockingRpcContinuation.GetReply(TimeSpan timeout)
+   at RabbitMQ.Client.Impl.ModelBase.BasicConsume(String queue, Boolean autoAck, String consumerTag, Boolean noLocal, Boolean exclusive, IDictionary`2 arguments, IBasicConsumer consumer)
+   at RabbitMQ.Client.Impl.AutorecoveringModel.BasicConsume(String queue, Boolean autoAck, String consumerTag, Boolean noLocal, Boolean exclusive, IDictionary`2 arguments, IBasicConsumer consumer)
+   at RabbitMQ.Client.IModelExensions.BasicConsume(IModel model, String queue, Boolean autoAck, IBasicConsumer consumer)
+   at Web.RabbitMQ.ReceiveMQ.GetMQ[T](Func`2 func, String queueName) in G:\学习\GitHub\调度\Job\Job\WebApplication1\Common\RabbitMQ\ReceiveMQ.cs:line 45
+   at Job.StartWriteJob.Start() in G:\学习\GitHub\调度\Job\Job\WebApplication1\Job\StartWriteJob.cs:line 24
+   at Job.StartWriteJob.Execute(IJobExecutionContext context) in G:\学习\GitHub\调度\Job\Job\WebApplication1\Job\StartWriteJob.cs:line 19
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken) in C:\projects\quartznet\src\Quartz\Core\JobRunShell.cs:line 193]
+16:35:31|Error|Quartz.Logging.LogProviders.NLogLogProvider+NLogLogger.Log|Job gtoup第一组.name测试 threw an unhandled Exception: |RabbitMQ.Client.Exceptions.OperationInterruptedException: The AMQP operation was interrupted: AMQP close-reason, initiated by Peer, code=404, text="NOT_FOUND - no queue 'PushMQCeShi' in vhost '/'", classId=60, methodId=20, cause=
+   at RabbitMQ.Client.Impl.SimpleBlockingRpcContinuation.GetReply(TimeSpan timeout)
+   at RabbitMQ.Client.Impl.ModelBase.BasicConsume(String queue, Boolean autoAck, String consumerTag, Boolean noLocal, Boolean exclusive, IDictionary`2 arguments, IBasicConsumer consumer)
+   at RabbitMQ.Client.Impl.AutorecoveringModel.BasicConsume(String queue, Boolean autoAck, String consumerTag, Boolean noLocal, Boolean exclusive, IDictionary`2 arguments, IBasicConsumer consumer)
+   at RabbitMQ.Client.IModelExensions.BasicConsume(IModel model, String queue, Boolean autoAck, IBasicConsumer consumer)
+   at Web.RabbitMQ.ReceiveMQ.GetMQ[T](Func`2 func, String queueName) in G:\学习\GitHub\调度\Job\Job\WebApplication1\Common\RabbitMQ\ReceiveMQ.cs:line 45
+   at Job.StartWriteJob.Start() in G:\学习\GitHub\调度\Job\Job\WebApplication1\Job\StartWriteJob.cs:line 24
+   at Job.StartWriteJob.Execute(IJobExecutionContext context) in G:\学习\GitHub\调度\Job\Job\WebApplication1\Job\StartWriteJob.cs:line 19
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken) in C:\projects\quartznet\src\Quartz\Core\JobRunShell.cs:line 193
+16:35:31|Error|Quartz.Logging.LogProviders.NLogLogProvider+NLogLogger.Log|Job gtoup第一组.name测试 threw an exception.|Quartz.SchedulerException: Job threw an unhandled exception. ---> RabbitMQ.Client.Exceptions.OperationInterruptedException: The AMQP operation was interrupted: AMQP close-reason, initiated by Peer, code=404, text="NOT_FOUND - no queue 'PushMQCeShi' in vhost '/'", classId=60, methodId=20, cause=
+   at RabbitMQ.Client.Impl.SimpleBlockingRpcContinuation.GetReply(TimeSpan timeout)
+   at RabbitMQ.Client.Impl.ModelBase.BasicConsume(String queue, Boolean autoAck, String consumerTag, Boolean noLocal, Boolean exclusive, IDictionary`2 arguments, IBasicConsumer consumer)
+   at RabbitMQ.Client.Impl.AutorecoveringModel.BasicConsume(String queue, Boolean autoAck, String consumerTag, Boolean noLocal, Boolean exclusive, IDictionary`2 arguments, IBasicConsumer consumer)
+   at RabbitMQ.Client.IModelExensions.BasicConsume(IModel model, String queue, Boolean autoAck, IBasicConsumer consumer)
+   at Web.RabbitMQ.ReceiveMQ.GetMQ[T](Func`2 func, String queueName) in G:\学习\GitHub\调度\Job\Job\WebApplication1\Common\RabbitMQ\ReceiveMQ.cs:line 45
+   at Job.StartWriteJob.Start() in G:\学习\GitHub\调度\Job\Job\WebApplication1\Job\StartWriteJob.cs:line 24
+   at Job.StartWriteJob.Execute(IJobExecutionContext context) in G:\学习\GitHub\调度\Job\Job\WebApplication1\Job\StartWriteJob.cs:line 19
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken) in C:\projects\quartznet\src\Quartz\Core\JobRunShell.cs:line 193
+   --- End of inner exception stack trace --- [See nested exception: RabbitMQ.Client.Exceptions.OperationInterruptedException: The AMQP operation was interrupted: AMQP close-reason, initiated by Peer, code=404, text="NOT_FOUND - no queue 'PushMQCeShi' in vhost '/'", classId=60, methodId=20, cause=
+   at RabbitMQ.Client.Impl.SimpleBlockingRpcContinuation.GetReply(TimeSpan timeout)
+   at RabbitMQ.Client.Impl.ModelBase.BasicConsume(String queue, Boolean autoAck, String consumerTag, Boolean noLocal, Boolean exclusive, IDictionary`2 arguments, IBasicConsumer consumer)
+   at RabbitMQ.Client.Impl.AutorecoveringModel.BasicConsume(String queue, Boolean autoAck, String consumerTag, Boolean noLocal, Boolean exclusive, IDictionary`2 arguments, IBasicConsumer consumer)
+   at RabbitMQ.Client.IModelExensions.BasicConsume(IModel model, String queue, Boolean autoAck, IBasicConsumer consumer)
+   at Web.RabbitMQ.ReceiveMQ.GetMQ[T](Func`2 func, String queueName) in G:\学习\GitHub\调度\Job\Job\WebApplication1\Common\RabbitMQ\ReceiveMQ.cs:line 45
+   at Job.StartWriteJob.Start() in G:\学习\GitHub\调度\Job\Job\WebApplication1\Job\StartWriteJob.cs:line 24
+   at Job.StartWriteJob.Execute(IJobExecutionContext context) in G:\学习\GitHub\调度\Job\Job\WebApplication1\Job\StartWriteJob.cs:line 19
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken) in C:\projects\quartznet\src\Quartz\Core\JobRunShell.cs:line 193]
+16:35:32|Error|Quartz.Logging.LogProviders.NLogLogProvider+NLogLogger.Log|Job gtoup第一组.name测试 threw an unhandled Exception: |RabbitMQ.Client.Exceptions.OperationInterruptedException: The AMQP operation was interrupted: AMQP close-reason, initiated by Peer, code=404, text="NOT_FOUND - no queue 'PushMQCeShi' in vhost '/'", classId=60, methodId=20, cause=
+   at RabbitMQ.Client.Impl.SimpleBlockingRpcContinuation.GetReply(TimeSpan timeout)
+   at RabbitMQ.Client.Impl.ModelBase.BasicConsume(String queue, Boolean autoAck, String consumerTag, Boolean noLocal, Boolean exclusive, IDictionary`2 arguments, IBasicConsumer consumer)
+   at RabbitMQ.Client.Impl.AutorecoveringModel.BasicConsume(String queue, Boolean autoAck, String consumerTag, Boolean noLocal, Boolean exclusive, IDictionary`2 arguments, IBasicConsumer consumer)
+   at RabbitMQ.Client.IModelExensions.BasicConsume(IModel model, String queue, Boolean autoAck, IBasicConsumer consumer)
+   at Web.RabbitMQ.ReceiveMQ.GetMQ[T](Func`2 func, String queueName) in G:\学习\GitHub\调度\Job\Job\WebApplication1\Common\RabbitMQ\ReceiveMQ.cs:line 45
+   at Job.StartWriteJob.Start() in G:\学习\GitHub\调度\Job\Job\WebApplication1\Job\StartWriteJob.cs:line 24
+   at Job.StartWriteJob.Execute(IJobExecutionContext context) in G:\学习\GitHub\调度\Job\Job\WebApplication1\Job\StartWriteJob.cs:line 19
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken) in C:\projects\quartznet\src\Quartz\Core\JobRunShell.cs:line 193
+16:35:32|Error|Quartz.Logging.LogProviders.NLogLogProvider+NLogLogger.Log|Job gtoup第一组.name测试 threw an exception.|Quartz.SchedulerException: Job threw an unhandled exception. ---> RabbitMQ.Client.Exceptions.OperationInterruptedException: The AMQP operation was interrupted: AMQP close-reason, initiated by Peer, code=404, text="NOT_FOUND - no queue 'PushMQCeShi' in vhost '/'", classId=60, methodId=20, cause=
+   at RabbitMQ.Client.Impl.SimpleBlockingRpcContinuation.GetReply(TimeSpan timeout)
+   at RabbitMQ.Client.Impl.ModelBase.BasicConsume(String queue, Boolean autoAck, String consumerTag, Boolean noLocal, Boolean exclusive, IDictionary`2 arguments, IBasicConsumer consumer)
+   at RabbitMQ.Client.Impl.AutorecoveringModel.BasicConsume(String queue, Boolean autoAck, String consumerTag, Boolean noLocal, Boolean exclusive, IDictionary`2 arguments, IBasicConsumer consumer)
+   at RabbitMQ.Client.IModelExensions.BasicConsume(IModel model, String queue, Boolean autoAck, IBasicConsumer consumer)
+   at Web.RabbitMQ.ReceiveMQ.GetMQ[T](Func`2 func, String queueName) in G:\学习\GitHub\调度\Job\Job\WebApplication1\Common\RabbitMQ\ReceiveMQ.cs:line 45
+   at Job.StartWriteJob.Start() in G:\学习\GitHub\调度\Job\Job\WebApplication1\Job\StartWriteJob.cs:line 24
+   at Job.StartWriteJob.Execute(IJobExecutionContext context) in G:\学习\GitHub\调度\Job\Job\WebApplication1\Job\StartWriteJob.cs:line 19
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken) in C:\projects\quartznet\src\Quartz\Core\JobRunShell.cs:line 193
+   --- End of inner exception stack trace --- [See nested exception: RabbitMQ.Client.Exceptions.OperationInterruptedException: The AMQP operation was interrupted: AMQP close-reason, initiated by Peer, code=404, text="NOT_FOUND - no queue 'PushMQCeShi' in vhost '/'", classId=60, methodId=20, cause=
+   at RabbitMQ.Client.Impl.SimpleBlockingRpcContinuation.GetReply(TimeSpan timeout)
+   at RabbitMQ.Client.Impl.ModelBase.BasicConsume(String queue, Boolean autoAck, String consumerTag, Boolean noLocal, Boolean exclusive, IDictionary`2 arguments, IBasicConsumer consumer)
+   at RabbitMQ.Client.Impl.AutorecoveringModel.BasicConsume(String queue, Boolean autoAck, String consumerTag, Boolean noLocal, Boolean exclusive, IDictionary`2 arguments, IBasicConsumer consumer)
+   at RabbitMQ.Client.IModelExensions.BasicConsume(IModel model, String queue, Boolean autoAck, IBasicConsumer consumer)
+   at Web.RabbitMQ.ReceiveMQ.GetMQ[T](Func`2 func, String queueName) in G:\学习\GitHub\调度\Job\Job\WebApplication1\Common\RabbitMQ\ReceiveMQ.cs:line 45
+   at Job.StartWriteJob.Start() in G:\学习\GitHub\调度\Job\Job\WebApplication1\Job\StartWriteJob.cs:line 24
+   at Job.StartWriteJob.Execute(IJobExecutionContext context) in G:\学习\GitHub\调度\Job\Job\WebApplication1\Job\StartWriteJob.cs:line 19
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken) in C:\projects\quartznet\src\Quartz\Core\JobRunShell.cs:line 193]
+16:35:32|Error|Quartz.Logging.LogProviders.NLogLogProvider+NLogLogger.Log|Job gtoup第一组.name测试 threw an unhandled Exception: |RabbitMQ.Client.Exceptions.OperationInterruptedException: The AMQP operation was interrupted: AMQP close-reason, initiated by Peer, code=404, text="NOT_FOUND - no queue 'PushMQCeShi' in vhost '/'", classId=60, methodId=20, cause=
+   at RabbitMQ.Client.Impl.SimpleBlockingRpcContinuation.GetReply(TimeSpan timeout)
+   at RabbitMQ.Client.Impl.ModelBase.BasicConsume(String queue, Boolean autoAck, String consumerTag, Boolean noLocal, Boolean exclusive, IDictionary`2 arguments, IBasicConsumer consumer)
+   at RabbitMQ.Client.Impl.AutorecoveringModel.BasicConsume(String queue, Boolean autoAck, String consumerTag, Boolean noLocal, Boolean exclusive, IDictionary`2 arguments, IBasicConsumer consumer)
+   at RabbitMQ.Client.IModelExensions.BasicConsume(IModel model, String queue, Boolean autoAck, IBasicConsumer consumer)
+   at Web.RabbitMQ.ReceiveMQ.GetMQ[T](Func`2 func, String queueName) in G:\学习\GitHub\调度\Job\Job\WebApplication1\Common\RabbitMQ\ReceiveMQ.cs:line 45
+   at Job.StartWriteJob.Start() in G:\学习\GitHub\调度\Job\Job\WebApplication1\Job\StartWriteJob.cs:line 24
+   at Job.StartWriteJob.Execute(IJobExecutionContext context) in G:\学习\GitHub\调度\Job\Job\WebApplication1\Job\StartWriteJob.cs:line 19
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken) in C:\projects\quartznet\src\Quartz\Core\JobRunShell.cs:line 193
+16:35:32|Error|Quartz.Logging.LogProviders.NLogLogProvider+NLogLogger.Log|Job gtoup第一组.name测试 threw an exception.|Quartz.SchedulerException: Job threw an unhandled exception. ---> RabbitMQ.Client.Exceptions.OperationInterruptedException: The AMQP operation was interrupted: AMQP close-reason, initiated by Peer, code=404, text="NOT_FOUND - no queue 'PushMQCeShi' in vhost '/'", classId=60, methodId=20, cause=
+   at RabbitMQ.Client.Impl.SimpleBlockingRpcContinuation.GetReply(TimeSpan timeout)
+   at RabbitMQ.Client.Impl.ModelBase.BasicConsume(String queue, Boolean autoAck, String consumerTag, Boolean noLocal, Boolean exclusive, IDictionary`2 arguments, IBasicConsumer consumer)
+   at RabbitMQ.Client.Impl.AutorecoveringModel.BasicConsume(String queue, Boolean autoAck, String consumerTag, Boolean noLocal, Boolean exclusive, IDictionary`2 arguments, IBasicConsumer consumer)
+   at RabbitMQ.Client.IModelExensions.BasicConsume(IModel model, String queue, Boolean autoAck, IBasicConsumer consumer)
+   at Web.RabbitMQ.ReceiveMQ.GetMQ[T](Func`2 func, String queueName) in G:\学习\GitHub\调度\Job\Job\WebApplication1\Common\RabbitMQ\ReceiveMQ.cs:line 45
+   at Job.StartWriteJob.Start() in G:\学习\GitHub\调度\Job\Job\WebApplication1\Job\StartWriteJob.cs:line 24
+   at Job.StartWriteJob.Execute(IJobExecutionContext context) in G:\学习\GitHub\调度\Job\Job\WebApplication1\Job\StartWriteJob.cs:line 19
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken) in C:\projects\quartznet\src\Quartz\Core\JobRunShell.cs:line 193
+   --- End of inner exception stack trace --- [See nested exception: RabbitMQ.Client.Exceptions.OperationInterruptedException: The AMQP operation was interrupted: AMQP close-reason, initiated by Peer, code=404, text="NOT_FOUND - no queue 'PushMQCeShi' in vhost '/'", classId=60, methodId=20, cause=
+   at RabbitMQ.Client.Impl.SimpleBlockingRpcContinuation.GetReply(TimeSpan timeout)
+   at RabbitMQ.Client.Impl.ModelBase.BasicConsume(String queue, Boolean autoAck, String consumerTag, Boolean noLocal, Boolean exclusive, IDictionary`2 arguments, IBasicConsumer consumer)
+   at RabbitMQ.Client.Impl.AutorecoveringModel.BasicConsume(String queue, Boolean autoAck, String consumerTag, Boolean noLocal, Boolean exclusive, IDictionary`2 arguments, IBasicConsumer consumer)
+   at RabbitMQ.Client.IModelExensions.BasicConsume(IModel model, String queue, Boolean autoAck, IBasicConsumer consumer)
+   at Web.RabbitMQ.ReceiveMQ.GetMQ[T](Func`2 func, String queueName) in G:\学习\GitHub\调度\Job\Job\WebApplication1\Common\RabbitMQ\ReceiveMQ.cs:line 45
+   at Job.StartWriteJob.Start() in G:\学习\GitHub\调度\Job\Job\WebApplication1\Job\StartWriteJob.cs:line 24
+   at Job.StartWriteJob.Execute(IJobExecutionContext context) in G:\学习\GitHub\调度\Job\Job\WebApplication1\Job\StartWriteJob.cs:line 19
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken) in C:\projects\quartznet\src\Quartz\Core\JobRunShell.cs:line 193]
+16:38:03|Error|Common.LogHelper.Error||System.Data.SqlClient.SqlException (0x80131904): 对象名 'Login' 无效。
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in C:\projects\dapper\Dapper\SqlMapper.cs:line 1053
+   at Dapper.SqlMapper.QueryRowImpl[T](IDbConnection cnn, Row row, CommandDefinition& command, Type effectiveType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 1179
+   at Dapper.SqlMapper.QueryFirstOrDefault[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 763
+   at Web.DBHelper.SqlDapperHelper.ReturnT[T](String sql, Object param, Boolean useWrite, IDbTransaction tran) in G:\学习\GitHub\调度\Job\Job\WebApplication1\Common\DBHelper\SqlDapperHelper.cs:line 52
+   at Job.StartWriteJob.Test(Login info) in G:\学习\GitHub\调度\Job\Job\WebApplication1\Job\StartWriteJob.cs:line 30
+ClientConnectionId:7f2d0eec-c8c0-45b4-9ba7-1327d068a021
+Error Number:208,State:1,Class:16
+16:48:23|Error|Common.LogHelper.Error||System.Data.SqlClient.SqlException (0x80131904): 对象名 'UserInfos' 无效。
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in C:\projects\dapper\Dapper\SqlMapper.cs:line 1053
+   at Dapper.SqlMapper.QueryMultipleImpl(IDbConnection cnn, CommandDefinition& command) in C:\projects\dapper\Dapper\SqlMapper.cs:line 1022
+   at Dapper.SqlMapper.QueryMultiple(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 998
+   at SqlServerAdapter.Insert(IDbConnection connection, IDbTransaction transaction, Nullable`1 commandTimeout, String tableName, String columnList, String parameterList, IEnumerable`1 keyProperties, Object entityToInsert) in G:\学习\GitHub\调度\Job\Job\WebApplication1\Common\Dapper\SqlMapperExtensions.cs:line 830
+   at Dapper.Contrib.Extensions.SqlMapperExtensions.Insert[T](IDbConnection connection, T entityToInsert, IDbTransaction transaction, Nullable`1 commandTimeout) in G:\学习\GitHub\调度\Job\Job\WebApplication1\Common\Dapper\SqlMapperExtensions.cs:line 385
+   at Web.DBHelper.SqlDapperHelper.Insert[T](T item, IDbTransaction tran) in G:\学习\GitHub\调度\Job\Job\WebApplication1\Common\DBHelper\SqlDapperHelper.cs:line 203
+   at Job.StartWriteJob.Test(Login info) in G:\学习\GitHub\调度\Job\Job\WebApplication1\Job\StartWriteJob.cs:line 36
+ClientConnectionId:cadaa9a6-2544-47de-b241-413bd2bd8750
+Error Number:208,State:1,Class:16
+17:05:30|Error|Common.LogHelper.Error||System.Data.SqlClient.SqlException (0x80131904): 对象名 'UserInfos' 无效。
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in C:\projects\dapper\Dapper\SqlMapper.cs:line 1053
+   at Dapper.SqlMapper.QueryMultipleImpl(IDbConnection cnn, CommandDefinition& command) in C:\projects\dapper\Dapper\SqlMapper.cs:line 1022
+   at Dapper.SqlMapper.QueryMultiple(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 998
+   at SqlServerAdapter.Insert(IDbConnection connection, IDbTransaction transaction, Nullable`1 commandTimeout, String tableName, String columnList, String parameterList, IEnumerable`1 keyProperties, Object entityToInsert) in G:\学习\GitHub\调度\Job\Job\WebApplication1\Common\Dapper\SqlMapperExtensions.cs:line 830
+   at Dapper.Contrib.Extensions.SqlMapperExtensions.Insert[T](IDbConnection connection, T entityToInsert, IDbTransaction transaction, Nullable`1 commandTimeout) in G:\学习\GitHub\调度\Job\Job\WebApplication1\Common\Dapper\SqlMapperExtensions.cs:line 385
+   at Web.DBHelper.SqlDapperHelper.Insert[T](T item, IDbTransaction tran) in G:\学习\GitHub\调度\Job\Job\WebApplication1\Common\DBHelper\SqlDapperHelper.cs:line 203
+   at Job.StartWriteJob.Test(Login info) in G:\学习\GitHub\调度\Job\Job\WebApplication1\Job\StartWriteJob.cs:line 36
+ClientConnectionId:30bb443a-6548-497e-9390-684f39232913
+Error Number:208,State:1,Class:16
+17:06:37|Error|Common.LogHelper.Error||System.Data.SqlClient.SqlException (0x80131904): 对象名 'UserInfos' 无效。
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in C:\projects\dapper\Dapper\SqlMapper.cs:line 1053
+   at Dapper.SqlMapper.QueryMultipleImpl(IDbConnection cnn, CommandDefinition& command) in C:\projects\dapper\Dapper\SqlMapper.cs:line 1022
+   at Dapper.SqlMapper.QueryMultiple(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 998
+   at SqlServerAdapter.Insert(IDbConnection connection, IDbTransaction transaction, Nullable`1 commandTimeout, String tableName, String columnList, String parameterList, IEnumerable`1 keyProperties, Object entityToInsert) in G:\学习\GitHub\调度\Job\Job\WebApplication1\Common\Dapper\SqlMapperExtensions.cs:line 830
+   at Dapper.Contrib.Extensions.SqlMapperExtensions.Insert[T](IDbConnection connection, T entityToInsert, IDbTransaction transaction, Nullable`1 commandTimeout) in G:\学习\GitHub\调度\Job\Job\WebApplication1\Common\Dapper\SqlMapperExtensions.cs:line 385
+   at Web.DBHelper.SqlDapperHelper.Insert[T](T item, IDbTransaction tran) in G:\学习\GitHub\调度\Job\Job\WebApplication1\Common\DBHelper\SqlDapperHelper.cs:line 203
+   at Job.StartWriteJob.Test(Login info) in G:\学习\GitHub\调度\Job\Job\WebApplication1\Job\StartWriteJob.cs:line 36
+ClientConnectionId:24416276-c423-498e-a66e-cbb68e7ea340
+Error Number:208,State:1,Class:16

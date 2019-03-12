@@ -28,9 +28,11 @@ namespace ConfigModel
     public class Setting
     {
         public string Host { get; }
+        public string MQKey { get; set; }
         public Setting(IConfigurationSection section)
         {
             this.Host = section.GetSection("Host").Value;
+            this.MQKey = section.GetSection("MQKey").Value;
         }
     }
     public class ConnectionStrings
@@ -38,11 +40,15 @@ namespace ConfigModel
         public string RabbitMqHostName { get; }
         public string RabbitMqUserName { get; }
         public string RabbitMqPassword { get; }
+        public string DapperWrite { get; set; }
+        public string DapperRead { get; set; }
         public ConnectionStrings(IConfigurationSection section)
         {
             this.RabbitMqHostName = section.GetSection("RabbitMqHostName").Value;
             this.RabbitMqUserName = section.GetSection("RabbitMqUserName").Value;
             this.RabbitMqPassword = section.GetSection("RabbitMqPassword").Value;
+            this.DapperWrite = section.GetSection("DapperWrite").Value;
+            this.DapperRead = section.GetSection("DapperRead").Value;
         }
     }
 }

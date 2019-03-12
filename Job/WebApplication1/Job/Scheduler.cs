@@ -25,7 +25,7 @@ namespace Job
             //开始启动调度器
             await scheduler.Start();
 
-            await CreateJob<StartWriteJob>("测试","第一组", "0/10 * * * * ? ");
+            await CreateJob<StartWriteJob>("测试","第一组", "0/30 * * * * ? ");
         }
 
         /// <summary>

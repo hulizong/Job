@@ -15,3 +15,6 @@ G:\学习\GitHub\调度\Job\Job\WebApplication1\Common\obj\Debug\netcoreapp2.2\C
 G:\学习\GitHub\调度\Job\Job\WebApplication1\Common\obj\Debug\netcoreapp2.2\Common.dll
 G:\学习\GitHub\调度\Job\Job\WebApplication1\Common\obj\Debug\netcoreapp2.2\Common.pdb
 G:\学习\GitHub\调度\Job\Job\WebApplication1\Common\obj\Debug\netcoreapp2.2\Common.csprojAssemblyReference.cache
+G:\学习\GitHub\调度\Job\Job\WebApplication1\Common\bin\Debug\netcoreapp2.2\ConfigModel.dll
+G:\学习\GitHub\调度\Job\Job\WebApplication1\Common\bin\Debug\netcoreapp2.2\ConfigModel.pdb
+G:\学习\GitHub\调度\Job\Job\WebApplication1\Common\obj\Debug\netcoreapp2.2\Common.csproj.CopyComplete

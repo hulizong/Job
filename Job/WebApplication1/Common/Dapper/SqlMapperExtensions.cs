@@ -300,18 +300,13 @@ namespace Dapper.Contrib.Extensions
                     info.GetCustomAttribute<TableAttribute>(false)?.Name
                     ?? (info.GetCustomAttributes(false).FirstOrDefault(attr => attr.GetType().Name == "TableAttribute") as dynamic)?.Name;
 
-                //.GetCustomAttributes(false).SingleOrDefault(attr => attr.GetType().Name == "TableAttribute") as dynamic;
-
-                //var tableAttr = type
-                // .GetTypeInfo()
-                // .GetCustomAttributes(false).SingleOrDefault(attr => attr.GetType().Name == "TableAttribute") as dynamic;
                 if (tableAttrName != null)
                 {
                     name = tableAttrName;
                 }
                 else
                 {
-                    name = type.Name; //+ "s";
+                    name = type.Name;//+ "s"
                     if (type.IsInterface && name.StartsWith("I"))
                         name = name.Substring(1);
                 }

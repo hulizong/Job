@@ -22,3 +22,5 @@ G:\学习\GitHub\调度\Job\Job\WebApplication1\Job\obj\Debug\netcoreapp2.2\Job.
 G:\学习\GitHub\调度\Job\Job\WebApplication1\Job\obj\Debug\netcoreapp2.2\Job.csproj.CopyComplete
 G:\学习\GitHub\调度\Job\Job\WebApplication1\Job\obj\Debug\netcoreapp2.2\Job.dll
 G:\学习\GitHub\调度\Job\Job\WebApplication1\Job\obj\Debug\netcoreapp2.2\Job.pdb
+G:\学习\GitHub\调度\Job\Job\WebApplication1\Job\bin\Debug\netcoreapp2.2\ConfigModel.dll
+G:\学习\GitHub\调度\Job\Job\WebApplication1\Job\bin\Debug\netcoreapp2.2\ConfigModel.pdb
