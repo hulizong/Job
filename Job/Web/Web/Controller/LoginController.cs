@@ -17,6 +17,7 @@ using System.Security.Claims;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using System.Net;
 using Web.RedisHelper;
+using Web.RabbitMQ;
 
 namespace Web.Controllers
 {
@@ -63,11 +64,14 @@ namespace Web.Controllers
                    
                     var token = Convert.ToBase64String(AESEncrypt(JsonConvert.SerializeObject(tokens)));
                     //SignIn(tokens, true).Wait();
+
+                    //登录成功，信息加入MQ
+
+                    PushMQ.SendMQ(tokens, Key.PushMQUserKey);
                 }
                 catch (Exception ex)
                 {
-
-                    throw;
+                    LogHelp.Error(ex);
                 }
                 return Json(new { result });
             }

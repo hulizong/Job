@@ -46,11 +46,13 @@ namespace Web.Common
            
             public string Host { get; }
             public string ApiHost { get; }
+            public string MQKey { get; set; }
             public Setting(IConfiguration Configuration)
             {
                  
                 this.Host = Configuration.GetConnectionString("Host");
                 this.ApiHost = Configuration.GetConnectionString("ApiHost");
+                this.MQKey = Configuration.GetConnectionString("MQKey");
             }
 
 
