@@ -49,9 +49,8 @@ namespace Web.Controllers
                     RedisManager.redisHelp.SetValue("Login", JsonConvert.SerializeObject(tokens));
                 }
                 catch (Exception ex)
-                {
-
-                    throw;
+                {  
+                    LogHelp.Error(ex);
                 }
 
 
