@@ -1,12 +1,12 @@
-﻿using Newtonsoft.Json;
+﻿using Common;
+using Newtonsoft.Json;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
-using Web.Common.LogHleper;
+using System.Threading.Tasks; 
 
 namespace Web.RabbitMQ
 {
@@ -36,7 +36,7 @@ namespace Web.RabbitMQ
                     }
                     catch (Exception ex)
                     {
-                        LogHelp.Error(ex);
+                        LogHelper.Error(ex);
                     }
                     //确认该消息已被消费
                     channel.BasicAck(ea.DeliveryTag, false);

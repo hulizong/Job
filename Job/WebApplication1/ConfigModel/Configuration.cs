@@ -9,6 +9,7 @@ namespace ConfigModel
     {
 
         public Setting Setting { get; set; }   //创建读取配置文件
+        public ConnectionStrings ConnectionStrings { get; set; }   //创建读取配置文件
 
         public static Configurations Acquire { get; private set; }
         public static void CreateAcquire(IConfigurationRoot configurationRoot)  //创建链接
@@ -18,6 +19,7 @@ namespace ConfigModel
         public Configurations(IConfigurationRoot configurationRoot)   //链接读取配置文件
         {
             this.Setting = new Setting(configurationRoot.GetSection("Setting"));
+            this.ConnectionStrings = new ConnectionStrings(configurationRoot.GetSection("ConnectionStrings"));
         }
     }
     /// <summary>
@@ -29,6 +31,18 @@ namespace ConfigModel
         public Setting(IConfigurationSection section)
         {
             this.Host = section.GetSection("Host").Value;
+        }
+    }
+    public class ConnectionStrings
+    {
+        public string RabbitMqHostName { get; }
+        public string RabbitMqUserName { get; }
+        public string RabbitMqPassword { get; }
+        public ConnectionStrings(IConfigurationSection section)
+        {
+            this.RabbitMqHostName = section.GetSection("RabbitMqHostName").Value;
+            this.RabbitMqUserName = section.GetSection("RabbitMqUserName").Value;
+            this.RabbitMqPassword = section.GetSection("RabbitMqPassword").Value;
         }
     }
 }
