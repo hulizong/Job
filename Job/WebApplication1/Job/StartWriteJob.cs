@@ -20,8 +20,9 @@ namespace Job
         }
         public async Task Start()
         {
-            Common.LogHelper.Debug(DateTime.Now.ToString()+ "测试打印");
-            ReceiveMQ.GetMQ<Login>(Test,"CeShi");// Key.PushMQUserKey);
+            Common.LogHelper.Debug(DateTime.Now.ToString() + "测试打印");
+            ReceiveMQ.GetMQ<Login>(Test, "CeShi");// Key.PushMQUserKey);
+
         }
         public static  bool Test(Login info)
         {

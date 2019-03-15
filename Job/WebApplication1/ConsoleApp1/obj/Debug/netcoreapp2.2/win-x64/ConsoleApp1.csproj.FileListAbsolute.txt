@@ -17,3 +17,5 @@ G:\学习\GitHub\调度\Job\Job\WebApplication1\ConsoleApp1\obj\Debug\netcoreapp
 G:\学习\GitHub\调度\Job\Job\WebApplication1\ConsoleApp1\obj\Debug\netcoreapp2.2\win-x64\ConsoleApp1.csproj.CopyComplete
 G:\学习\GitHub\调度\Job\Job\WebApplication1\ConsoleApp1\obj\Debug\netcoreapp2.2\win-x64\ConsoleApp1.dll
 G:\学习\GitHub\调度\Job\Job\WebApplication1\ConsoleApp1\obj\Debug\netcoreapp2.2\win-x64\ConsoleApp1.pdb
+G:\学习\GitHub\调度\Job\Job\WebApplication1\ConsoleApp1\bin\Debug\netcoreapp2.2\win-x64\appsettings.json
+G:\学习\GitHub\调度\Job\Job\WebApplication1\ConsoleApp1\bin\Debug\netcoreapp2.2\win-x64\NLog.config

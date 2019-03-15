@@ -1,0 +1,7 @@
+17:34:54|Debug|Quartz.Impl.StdSchedulerFactory+<Instantiate>d__65.MoveNext|TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.|
+17:34:54|Debug|Quartz.Logging.LogProviders.NLogLogProvider+NLogLogger.Log|Batch acquisition of 0 triggers|
+17:34:54|Debug|Quartz.Logging.LogProviders.NLogLogProvider+NLogLogger.Log|Batch acquisition of 1 triggers|
+17:35:00|Debug|Quartz.Simpl.SimpleJobFactory.NewJob|Producing instance of Job 'gtoup_StartCmdJob.name_StartCmdJob', class=Job.StartCmdJob|
+17:35:00|Debug|Quartz.Logging.LogProviders.NLogLogProvider+NLogLogger.Log|Batch acquisition of 0 triggers|
+17:35:00|Debug|Quartz.Logging.LogProviders.NLogLogProvider+NLogLogger.Log|Calling Execute on job gtoup_StartCmdJob.name_StartCmdJob|
+17:35:02|Debug|Quartz.Logging.LogProviders.NLogLogProvider+NLogLogger.Log|Trigger instruction : NoInstruction|
