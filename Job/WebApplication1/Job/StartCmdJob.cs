@@ -20,7 +20,7 @@ namespace Job
             string cmd2 = @"git pull";
             string output = "";
             CmdHelper.RunCmd(cmd, cmd1, cmd2, out output);
-            LogHelper.Info(DateTime.Now.ToString() + output);
+            LogHelper.Debug("拉取信息：：："+DateTime.Now.ToString()+"---" + output);
         }
     }
 }

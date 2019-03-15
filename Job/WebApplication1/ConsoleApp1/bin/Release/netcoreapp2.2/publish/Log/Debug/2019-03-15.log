@@ -5,3 +5,10 @@
 17:35:00|Debug|Quartz.Logging.LogProviders.NLogLogProvider+NLogLogger.Log|Batch acquisition of 0 triggers|
 17:35:00|Debug|Quartz.Logging.LogProviders.NLogLogProvider+NLogLogger.Log|Calling Execute on job gtoup_StartCmdJob.name_StartCmdJob|
 17:35:02|Debug|Quartz.Logging.LogProviders.NLogLogProvider+NLogLogger.Log|Trigger instruction : NoInstruction|
+17:35:25|Debug|Quartz.Logging.LogProviders.NLogLogProvider+NLogLogger.Log|Batch acquisition of 0 triggers|
+17:35:54|Debug|Quartz.Logging.LogProviders.NLogLogProvider+NLogLogger.Log|Batch acquisition of 0 triggers|
+17:36:22|Debug|Quartz.Logging.LogProviders.NLogLogProvider+NLogLogger.Log|Batch acquisition of 0 triggers|
+17:36:48|Debug|Quartz.Logging.LogProviders.NLogLogProvider+NLogLogger.Log|Batch acquisition of 0 triggers|
+17:38:55|Debug|Quartz.Impl.StdSchedulerFactory+<Instantiate>d__65.MoveNext|TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.|
+17:38:55|Debug|Quartz.Logging.LogProviders.NLogLogProvider+NLogLogger.Log|Batch acquisition of 0 triggers|
+17:38:56|Debug|Quartz.Logging.LogProviders.NLogLogProvider+NLogLogger.Log|Batch acquisition of 0 triggers|
