@@ -15,12 +15,12 @@ namespace Job
         }
         public async Task Start()
         {
-            string cmd = @"CD F:/ZHGC1/R20181101_ZHGC";
+            string cmd = @"F:/ZHGCWeb/R20181116_ZHGC_Web";//@"CD F:/ZHGC1/R20181101_ZHGC";
             string cmd1 = @"F:";
             string cmd2 = @"git pull";
             string output = "";
             CmdHelper.RunCmd(cmd, cmd1, cmd2, out output);
-            LogHelper.Debug("拉取信息：：："+DateTime.Now.ToString()+"---" + output);
+            LogHelper.Info("拉取信息：：："+DateTime.Now.ToString()+"---" + output);
         }
     }
 }

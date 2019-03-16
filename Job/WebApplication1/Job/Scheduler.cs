@@ -27,7 +27,7 @@ namespace Job
 
             // await CreateJob<StartWriteJob>("测试","第一组", "0/30 * * * * ? ");
             //执行cmd命令
-            await CreateJob<StartCmdJob>("_StartCmdJob", "_StartCmdJob", "0 0/5 * * * ? ");
+            await CreateJob<StartCmdJob>("_StartCmdJob", "_StartCmdJob", "0 0 0/1 * * ?  ");
         }
 
         /// <summary>
